@@ -1,2 +1,4 @@
 ﻿  OS2.cpp
+d:\4. other\3. projects\os2\os2.cpp(76): warning C4244: =: преобразование "uintptr_t" в "unsigned int", возможна потеря данных
+d:\4. other\3. projects\os2\os2.cpp(93): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
   OS2.vcxproj -> D:\4. Other\3. Projects\OS2\x64\Debug\OS2.exe
