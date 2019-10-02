@@ -6,6 +6,7 @@ class Fork
 {
 public:
 	Fork();
+	~Fork();
 	void wait();
 	void free();
 

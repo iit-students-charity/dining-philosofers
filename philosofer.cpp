@@ -11,9 +11,14 @@ Philosofer::Philosofer(std::string name, unsigned placeNumber)
 	setState(Thinking);
 }
 
+Philosofer::~Philosofer()
+{
+	CloseHandle(handle);
+}
+
 void Philosofer::startReflection()
 {
-	_beginthreadex(NULL, 0, &Philosofer::callThreadMethod, this, 0, NULL);
+	handle = (HANDLE)_beginthreadex(NULL, 0, &Philosofer::callThreadMethod, this, 0, NULL);
 }
 
 std::string Philosofer::getName()

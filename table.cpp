@@ -22,6 +22,12 @@ Table::Table(Config config)
 	}
 }
 
+Table::~Table()
+{
+	philosofers.clear();
+	forks.clear();
+}
+
 void Table::startMeal()
 {
 	for (size_t i = 0; i < count; i++)
@@ -46,10 +52,6 @@ void Table::logStates()
 	}
 	std::cout << std::endl;
 }
-
-std::vector<Philosofer> philosofers;
-std::vector<Fork> forks;
-size_t count;
 
 void Table::waitForLoggingPeriod()
 {

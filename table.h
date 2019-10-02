@@ -11,6 +11,7 @@ class Table
 {
 public:
 	Table(Config config);
+	~Table();
 	void startMeal();
 	void logStates();
 

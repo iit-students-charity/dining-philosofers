@@ -22,14 +22,14 @@ Config::Config(const char* pathToFile)
 	pugi::xml_parse_result result = doc.load_file(pathToFile);
 	//	if (!result)
 
-	this->secondsToEat = (unsigned)doc.child("config").child("secondsToEat").text().as_int();
-	this->secondsToThink = (unsigned)doc.child("config").child("secondsToThink").text().as_int();
-	this->logPeriod = (unsigned)doc.child("config").child("logPeriod").text().as_int();
+	secondsToEat = (unsigned)doc.child("config").child("secondsToEat").text().as_int();
+	secondsToThink = (unsigned)doc.child("config").child("secondsToThink").text().as_int();
+	logPeriod = (unsigned)doc.child("config").child("logPeriod").text().as_int();
 
 	for (pugi::xml_node philosofer : doc.child("config").child("philosofers").children("philosofer"))
 	{
 		char* philosoferName = (char*)philosofer.text().as_string();
-		this->philosoferNames.push_back(philosoferName);
+		philosoferNames.push_back(philosoferName);
 	}
 }
 

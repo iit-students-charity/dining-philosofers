@@ -6,6 +6,11 @@ Fork::Fork()
 	semaphore = CreateSemaphore(NULL, 1, 1, NULL);
 }
 
+Fork::~Fork()
+{
+	//CloseHandle(semaphore);
+}
+
 void Fork::wait()
 {
 	WaitForSingleObject(semaphore, INFINITE);

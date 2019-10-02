@@ -9,6 +9,7 @@ class Philosofer
 {
 public:
 	Philosofer(std::string name, unsigned placeNumber);
+	~Philosofer();
 	void startReflection();
 	std::string getName();
 	std::string getStateString();
@@ -25,6 +26,7 @@ private:
 	unsigned secondsToThink;
 	Fork* leftHand;
 	Fork* rightHand;
+	HANDLE handle;
 
 	static unsigned __stdcall callThreadMethod(void *p_this);
 	void reflectionCycle();
