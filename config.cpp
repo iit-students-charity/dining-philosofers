@@ -25,6 +25,7 @@ Config::Config(const char* source)
 	secondsToEat = (unsigned)doc.child("config").child("secondsToEat").text().as_int();
 	secondsToThink = (unsigned)doc.child("config").child("secondsToThink").text().as_int();
 	logPeriod = (unsigned)doc.child("config").child("logPeriod").text().as_int();
+	timeOut = (unsigned)doc.child("config").child("timeOut").text().as_int();
 	logFilePath = doc.child("config").child("logFile").text().as_string();
 
 	for (pugi::xml_node philosofer : doc.child("config").child("philosofers").children("philosofer"))
@@ -37,6 +38,11 @@ Config::Config(const char* source)
 unsigned Config::getLogPeriod()
 {
 	return logPeriod;
+}
+
+unsigned Config::getTimeOut()
+{
+	return timeOut;
 }
 
 unsigned Config::getSecondsToEat()

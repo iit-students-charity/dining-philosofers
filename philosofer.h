@@ -9,7 +9,6 @@ class Philosofer
 {
 public:
 	Philosofer(std::string name, unsigned placeNumber);
-	~Philosofer();
 	void startReflection();
 	void stopReflection();
 	std::string getName();

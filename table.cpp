@@ -8,6 +8,7 @@ Table::Table(Config config) : log(config.getLogFilePath(), std::ofstream::app)
 {
 	count = config.getPhilosoferNames().size();
 	logPeriod = config.getLogPeriod();
+	timeOut = config.getTimeOut();
 	for (size_t i = 0; i < count; i++)
 	{
 		Fork *fork = new Fork;
@@ -42,7 +43,7 @@ void Table::lunch()
 	}
 
 	std::chrono::steady_clock::time_point start = std::chrono::steady_clock::now();
-	while (std::chrono::steady_clock::now() - start < std::chrono::seconds(2))
+	while (std::chrono::steady_clock::now() - start < std::chrono::seconds(timeOut))
 	{
 		logStates(std::cout);
 		logStates(log);

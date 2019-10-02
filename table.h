@@ -21,6 +21,7 @@ private:
 	std::ofstream log;
 	size_t count;
 	unsigned logPeriod;
+	unsigned timeOut;
 
 	void logStates(std::ostream &stream);
 	void logHeading(std::ostream &stream);

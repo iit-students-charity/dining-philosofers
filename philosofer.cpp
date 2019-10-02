@@ -12,11 +12,6 @@ Philosofer::Philosofer(std::string name, unsigned placeNumber)
 	setState(Thinking);
 }
 
-Philosofer::~Philosofer()
-{
-	stopReflection();
-}
-
 void Philosofer::startReflection()
 {
 	thread = (HANDLE)_beginthreadex(NULL, 0, &Philosofer::callThreadMethod, this, 0, NULL);
@@ -26,8 +21,8 @@ void Philosofer::stopReflection()
 {
 	SetEvent(stopEvent);
 	WaitForSingleObject(thread, INFINITE);
-	//CloseHandle(stopEvent);
-	//CloseHandle(thread);
+	CloseHandle(thread);
+	CloseHandle(stopEvent);
 }
 
 std::string Philosofer::getName()
