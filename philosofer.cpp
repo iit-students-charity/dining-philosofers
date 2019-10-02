@@ -1,9 +1,13 @@
 #include "stdafx.h"
 #include "philosofer.h"
+#include "config.h"
 
-Philosofer::Philosofer(std::string name)
+Philosofer::Philosofer(std::string name, unsigned placeNumber)
 {
+	this->placeNumber = placeNumber;
 	this->name = name;
+	secondsToThink = 5;
+	secondsToEat = 5;
 	setState(Thinking);
 }
 
@@ -56,31 +60,56 @@ void Philosofer::reflectionCycle()
 		setState(Thinking);
 		waitForThinking();
 
-		setState(WaitingForLeft);
-		leftHand->wait();
+		if (isPlaceNumberOdd()) 
+		{
+			setState(WaitingForLeft);
+			leftHand->wait();
 
-		setState(WaitingForRight);
-		rightHand->wait();
+			setState(WaitingForRight);
+			rightHand->wait();
+		}
+		else {
+			setState(WaitingForRight);
+			rightHand->wait();
+
+			setState(WaitingForLeft);
+			leftHand->wait();
+		}
 
 		setState(Eating);
 		waitForEating();
 
-		leftHand->release();
-		rightHand->release();
+		leftHand->free();
+		rightHand->free();
 	}
 }
 
 void Philosofer::waitForThinking()
 {
-	Sleep(SECONDS_TO_THINK * 1000);
+	Sleep(secondsToEat * 1000);
 }
 
 void Philosofer::waitForEating()
 {
-	Sleep(SECONDS_TO_EAT * 1000);
+	Sleep(secondsToEat * 1000);
 }
 
 void Philosofer::setState(State state)
 {
 	this->state = state;
+}
+
+bool Philosofer::isPlaceNumberOdd()
+{
+	return (placeNumber % 2) != 0;
+}
+
+void Philosofer::setSecondsToEat(unsigned secondsToEat)
+{
+	this->secondsToEat = secondsToEat;
+}
+
+void Philosofer::setSecondsToThink(unsigned secondsToThink)
+{
+	this->secondsToThink = secondsToThink;
 }

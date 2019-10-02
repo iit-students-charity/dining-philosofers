@@ -1,6 +1,7 @@
 #pragma once
 
 #include "philosofer.h"
+#include "config.h"
 
 #include <vector>
 #include <iostream>
@@ -9,15 +10,15 @@
 class Table
 {
 public:
-	Table(std::vector<Philosofer> philosofers);
+	Table(Config config);
 	void startMeal();
 	void logStates();
 
 private:
 	std::vector<Philosofer> philosofers;
 	std::vector<Fork> forks;
+	unsigned logPeriod;
 	size_t count;
-	static const int LOG_PERIOD = 1;
 
 	void waitForLoggingPeriod();
 	void printPreamble();

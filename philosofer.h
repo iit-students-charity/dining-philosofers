@@ -8,18 +8,21 @@
 class Philosofer
 {
 public:
-	Philosofer(std::string name);
+	Philosofer(std::string name, unsigned placeNumber);
 	void startReflection();
 	std::string getName();
 	std::string getStateString();
 	void setLeftHand(Fork* fork);
 	void setRightHand(Fork* fork);
+	void setSecondsToEat(unsigned secondsToEat);
+	void setSecondsToThink(unsigned secondsToThink);
 
 private:
-	std::string name;
 	enum State { Thinking, WaitingForLeft, WaitingForRight, Eating } state;
-	static const int SECONDS_TO_EAT = 5;
-	static const int SECONDS_TO_THINK = 5;
+	std::string name;
+	unsigned placeNumber;
+	unsigned secondsToEat;
+	unsigned secondsToThink;
 	Fork* leftHand;
 	Fork* rightHand;
 
@@ -28,4 +31,5 @@ private:
 	void waitForThinking();
 	void waitForEating();
 	void setState(State state);
+	bool isPlaceNumberOdd();
 };

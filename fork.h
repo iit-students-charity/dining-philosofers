@@ -7,7 +7,7 @@ class Fork
 public:
 	Fork();
 	void wait();
-	void release();
+	void free();
 
 private:
 	HANDLE semaphore;

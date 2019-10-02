@@ -33,6 +33,12 @@
     <ClInclude Include="table.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Header1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -48,6 +54,9 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="table.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

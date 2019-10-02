@@ -1,19 +1,24 @@
 #include "stdafx.h"
 #include "table.h"
+#include "config.h"
 
-Table::Table(std::vector<Philosofer> philosofers)
+Table::Table(Config config)
 {
-	count = philosofers.size();
-	this->philosofers = philosofers;
+	count = config.getPhilosoferNames().size();
+	logPeriod = config.getLogPeriod();
 	for (size_t i = 0; i < count; i++)
 	{
 		Fork *fork = new Fork;
+		Philosofer *philosofer = new Philosofer(config.getPhilosoferNames().at(i), (unsigned)i);
+		philosofer->setSecondsToEat(config.getSecondsToEat());
+		philosofer->setSecondsToThink(config.getSecondsToThink());
+		philosofers.push_back(*philosofer);
 		forks.push_back(*fork);
 	}
 	for (size_t i = 0; i < count; i++)
 	{
-		this->philosofers.at(i).setLeftHand(&forks.at(i));
-		this->philosofers.at(i).setRightHand(&forks.at((i + 1) % count));
+		philosofers.at(i).setLeftHand(&forks.at(i));
+		philosofers.at(i).setRightHand(&forks.at((i + 1) % count));
 	}
 }
 
@@ -45,11 +50,10 @@ void Table::logStates()
 std::vector<Philosofer> philosofers;
 std::vector<Fork> forks;
 size_t count;
-static const int LOG_PERIOD = 1;
 
 void Table::waitForLoggingPeriod()
 {
-	Sleep(LOG_PERIOD * 1000);
+	Sleep(logPeriod * 1000);
 }
 
 void Table::printPreamble()

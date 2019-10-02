@@ -11,7 +11,7 @@ void Fork::wait()
 	WaitForSingleObject(semaphore, INFINITE);
 }
 
-void Fork::release()
+void Fork::free()
 {
 	ReleaseSemaphore(semaphore, 1, NULL);
 }
