@@ -8,17 +8,26 @@ Philosofer::Philosofer(std::string name, unsigned placeNumber)
 	this->name = name;
 	secondsToThink = 5;
 	secondsToEat = 5;
+	stopEvent = CreateEvent(NULL, TRUE, FALSE, NULL);
 	setState(Thinking);
 }
 
 Philosofer::~Philosofer()
 {
-	CloseHandle(handle);
+	stopReflection();
 }
 
 void Philosofer::startReflection()
 {
-	handle = (HANDLE)_beginthreadex(NULL, 0, &Philosofer::callThreadMethod, this, 0, NULL);
+	thread = (HANDLE)_beginthreadex(NULL, 0, &Philosofer::callThreadMethod, this, 0, NULL);
+}
+
+void Philosofer::stopReflection()
+{
+	SetEvent(stopEvent);
+	WaitForSingleObject(thread, INFINITE);
+	//CloseHandle(stopEvent);
+	//CloseHandle(thread);
 }
 
 std::string Philosofer::getName()
@@ -62,7 +71,7 @@ unsigned __stdcall Philosofer::callThreadMethod(void *p_this)
 
 void Philosofer::reflectionCycle()
 {
-	while (true)
+	while (WaitForSingleObject(stopEvent, 0) != WAIT_OBJECT_0)
 	{
 		setState(Thinking);
 		waitForThinking();

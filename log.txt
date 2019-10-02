@@ -4,3 +4,127 @@
 | thinking        | thinking        | thinking        | thinking        | thinking        |
 | thinking        | thinking        | thinking        | thinking        | thinking        |
 | thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| eating          | waiting left    | waiting right   | eating          | waiting right   |
+| eating          | waiting left    | waiting right   | eating          | waiting right   |
+| eating          | waiting left    | waiting right   | eating          | waiting right   |
+| eating          | waiting left    | waiting right   | eating          | waiting right   |
+| eating          | waiting left    | waiting right   | eating          | waiting right   |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#

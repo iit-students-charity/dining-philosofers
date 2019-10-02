@@ -2,6 +2,7 @@
 #include "table.h"
 #include "config.h"
 
+#include <chrono>
 
 Table::Table(Config config) : log(config.getLogFilePath(), std::ofstream::app)
 {
@@ -30,21 +31,31 @@ Table::~Table()
 	log.close();
 }
 
-void Table::startMeal()
+void Table::lunch()
 {
+	logHeading(std::cout);
+	logHeading(log);
+
 	for (size_t i = 0; i < count; i++)
 	{
 		philosofers.at(i).startReflection();
 	}
 
-	logPreamble(std::cout);
-	logPreamble(log);
-	while (true)
+	std::chrono::steady_clock::time_point start = std::chrono::steady_clock::now();
+	while (std::chrono::steady_clock::now() - start < std::chrono::seconds(2))
 	{
 		logStates(std::cout);
 		logStates(log);
 		waitForLoggingPeriod();
 	}
+
+	for (size_t i = 0; i < count; i++)
+	{
+		philosofers.at(i).stopReflection();
+	}
+
+	logLine(std::cout);
+	logLine(log);
 }
 
 void Table::logStates(std::ostream& stream)
@@ -57,14 +68,21 @@ void Table::logStates(std::ostream& stream)
 	stream << std::endl;
 }
 
-void Table::logPreamble(std::ostream& stream)
+void Table::logHeading(std::ostream& stream)
 {
-	stream << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl << "|";
+	logLine(stream);
+	stream << "|";
 	for (size_t i = 0; i < count; i++)
 	{
 		stream << " " << std::left << std::setw(15) << philosofers.at(i).getName() << " |";
 	}
-	stream << std::endl << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl;
+	stream << std::endl;
+	logLine(stream);
+}
+
+void Table::logLine(std::ostream& stream)
+{
+	stream << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl;
 }
 
 void Table::waitForLoggingPeriod()

@@ -11,6 +11,7 @@ public:
 	Philosofer(std::string name, unsigned placeNumber);
 	~Philosofer();
 	void startReflection();
+	void stopReflection();
 	std::string getName();
 	std::string getStateString();
 	void setLeftHand(Fork* fork);
@@ -26,7 +27,8 @@ private:
 	unsigned secondsToThink;
 	Fork* leftHand;
 	Fork* rightHand;
-	HANDLE handle;
+	HANDLE thread;
+	HANDLE stopEvent;
 
 	static unsigned __stdcall callThreadMethod(void *p_this);
 	void reflectionCycle();

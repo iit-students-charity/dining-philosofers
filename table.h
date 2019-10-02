@@ -13,16 +13,17 @@ class Table
 public:
 	Table(Config config);
 	~Table();
-	void startMeal();
+	void lunch();
 
 private:
 	std::vector<Philosofer> philosofers;
 	std::vector<Fork> forks;
 	std::ofstream log;
-	unsigned logPeriod;
 	size_t count;
+	unsigned logPeriod;
 
 	void logStates(std::ostream &stream);
-	void logPreamble(std::ostream &stream);
+	void logHeading(std::ostream &stream);
+	void logLine(std::ostream &stream);
 	void waitForLoggingPeriod();
 };
