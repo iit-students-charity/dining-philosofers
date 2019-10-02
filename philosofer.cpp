@@ -79,7 +79,8 @@ void Philosofer::reflectionCycle()
 			setState(WaitingForRight);
 			rightHand->wait();
 		}
-		else {
+		else 
+		{
 			setState(WaitingForRight);
 			rightHand->wait();
 

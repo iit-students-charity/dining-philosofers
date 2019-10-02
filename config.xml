@@ -3,7 +3,7 @@
   <secondsToEat>5</secondsToEat>
   <secondsToThink>5</secondsToThink>
   <logPeriod>1</logPeriod>
-  <timeOut>20</timeOut>
+  <timeOut>3</timeOut>
   <logFile>log.txt</logFile>
   <philosofers>
     <philosofer>Socrates</philosofer>
