@@ -11,5 +11,5 @@ public:
 	void free();
 
 private:
-	HANDLE semaphore;
+	HANDLE mutex;
 };

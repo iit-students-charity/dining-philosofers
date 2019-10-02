@@ -3,20 +3,20 @@
 
 Fork::Fork()
 {
-	semaphore = CreateSemaphore(NULL, 1, 1, NULL);
+	mutex = CreateMutex(NULL, FALSE, NULL);
 }
 
 Fork::~Fork()
 {
-	//CloseHandle(semaphore);
+	//CloseHandle(mutex);
 }
 
 void Fork::wait()
 {
-	WaitForSingleObject(semaphore, INFINITE);
+	WaitForSingleObject(mutex, INFINITE);
 }
 
 void Fork::free()
 {
-	ReleaseSemaphore(semaphore, 1, NULL);
+	ReleaseMutex(mutex);
 }

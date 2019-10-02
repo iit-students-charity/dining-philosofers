@@ -219,3 +219,68 @@
 | eating          | thinking        | waiting right   | eating          | thinking        |
 | eating          | thinking        | waiting right   | eating          | thinking        |
 | eating          | thinking        | waiting right   | eating          | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+| waiting right   | waiting left    | waiting right   | waiting left    | waiting right   |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| eating          | waiting left    | eating          | waiting left    | waiting right   |
+| eating          | waiting left    | eating          | waiting left    | waiting right   |
+| eating          | waiting left    | eating          | waiting left    | waiting right   |
+| eating          | waiting left    | eating          | waiting left    | waiting right   |
+| eating          | waiting left    | eating          | waiting left    | waiting right   |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting right   | eating          | waiting left    |
+| waiting right   | eating          | waiting right   | eating          | waiting left    |
+| waiting right   | eating          | waiting right   | eating          | waiting left    |
