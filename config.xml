@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <secondsToEat>5</secondsToEat>
+  <secondsToThink>5</secondsToThink>
+  <logPeriod>1</logPeriod>
+  <philosofers>
+    <philosofer>Socrates</philosofer>
+    <philosofer>Aristotle</philosofer>
+    <philosofer>Parmenides</philosofer>
+    <philosofer>Spinoza</philosofer>
+    <philosofer>Nietzsche</philosofer>
+  </philosofers>
+</config>

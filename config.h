@@ -7,7 +7,7 @@ class Config
 {
 public:
 	Config();
-	Config(std::string fileName);
+	Config(const char* fileName);
 	unsigned getLogPeriod();
 	unsigned getSecondsToEat();
 	unsigned getSecondsToThink();
