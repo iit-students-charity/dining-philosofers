@@ -38,6 +38,8 @@ std::string Philosofer::getStateString()
 		return "waiting left";
 	case WaitingForRight:
 		return "waiting right";
+	default:
+		return NULL;
 	};
 }
 

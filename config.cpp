@@ -16,19 +16,20 @@ Config::Config()
 	philosoferNames.push_back("Nietzsche");
 }
 
-Config::Config(const char* pathToFile)
+Config::Config(const char* source)
 {
 	pugi::xml_document doc;
-	pugi::xml_parse_result result = doc.load_file(pathToFile);
+	pugi::xml_parse_result result = doc.load_file(source);
 	//	if (!result)
 
 	secondsToEat = (unsigned)doc.child("config").child("secondsToEat").text().as_int();
 	secondsToThink = (unsigned)doc.child("config").child("secondsToThink").text().as_int();
 	logPeriod = (unsigned)doc.child("config").child("logPeriod").text().as_int();
+	logFilePath = doc.child("config").child("logFile").text().as_string();
 
 	for (pugi::xml_node philosofer : doc.child("config").child("philosofers").children("philosofer"))
 	{
-		char* philosoferName = (char*)philosofer.text().as_string();
+		std::string philosoferName = philosofer.text().as_string();
 		philosoferNames.push_back(philosoferName);
 	}
 }
@@ -46,6 +47,11 @@ unsigned Config::getSecondsToEat()
 unsigned Config::getSecondsToThink()
 {
 	return secondsToThink;
+}
+
+std::string Config::getLogFilePath()
+{
+	return logFilePath;
 }
 
 std::vector<std::string> Config::getPhilosoferNames()

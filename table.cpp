@@ -2,7 +2,8 @@
 #include "table.h"
 #include "config.h"
 
-Table::Table(Config config)
+
+Table::Table(Config config) : log(config.getLogFilePath(), std::ofstream::app)
 {
 	count = config.getPhilosoferNames().size();
 	logPeriod = config.getLogPeriod();
@@ -35,7 +36,7 @@ void Table::startMeal()
 		philosofers.at(i).startReflection();
 	}
 
-	printPreamble();
+	logPreamble();
 	while (true)
 	{
 		logStates();
@@ -45,6 +46,12 @@ void Table::startMeal()
 
 void Table::logStates()
 {
+	statesToConsole();
+	statesToFile();
+}
+
+void Table::statesToConsole()
+{
 	std::cout << "|";
 	for (size_t i = 0; i < count; i++)
 	{
@@ -53,12 +60,28 @@ void Table::logStates()
 	std::cout << std::endl;
 }
 
+void Table::statesToFile()
+{
+	log << "|";
+	for (size_t i = 0; i < count; i++)
+	{
+		log << " " << std::left << std::setw(15) << philosofers.at(i).getStateString() << " |";
+	}
+	log << std::endl;
+}
+
 void Table::waitForLoggingPeriod()
 {
 	Sleep(logPeriod * 1000);
 }
 
-void Table::printPreamble()
+void Table::logPreamble()
+{
+	preambleToConsole();
+	preambleToFile();
+}
+
+void Table::preambleToConsole()
 {
 	std::cout << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl << "|";
 	for (size_t i = 0; i < count; i++)
@@ -66,4 +89,14 @@ void Table::printPreamble()
 		std::cout << " " << std::left << std::setw(15) << philosofers.at(i).getName() << " |";
 	}
 	std::cout << std::endl << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl;
+}
+
+void Table::preambleToFile()
+{
+	log << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl << "|";
+	for (size_t i = 0; i < count; i++)
+	{
+		log << " " << std::left << std::setw(15) << philosofers.at(i).getName() << " |";
+	}
+	log << std::endl << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl;
 }
