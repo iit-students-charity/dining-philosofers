@@ -22,11 +22,7 @@ private:
 	unsigned logPeriod;
 	size_t count;
 
-	void logStates();
-	void logPreamble();
-	void statesToConsole();
-	void statesToFile();
-	void preambleToConsole();
-	void preambleToFile();
+	void logStates(std::ostream &stream);
+	void logPreamble(std::ostream &stream);
 	void waitForLoggingPeriod();
 };

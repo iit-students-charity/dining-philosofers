@@ -27,6 +27,7 @@ Table::~Table()
 {
 	philosofers.clear();
 	forks.clear();
+	log.close();
 }
 
 void Table::startMeal()
@@ -36,67 +37,37 @@ void Table::startMeal()
 		philosofers.at(i).startReflection();
 	}
 
-	logPreamble();
+	logPreamble(std::cout);
+	logPreamble(log);
 	while (true)
 	{
-		logStates();
+		logStates(std::cout);
+		logStates(log);
 		waitForLoggingPeriod();
 	}
 }
 
-void Table::logStates()
+void Table::logStates(std::ostream& stream)
 {
-	statesToConsole();
-	statesToFile();
-}
-
-void Table::statesToConsole()
-{
-	std::cout << "|";
+	stream << "|";
 	for (size_t i = 0; i < count; i++)
 	{
-		std::cout << " " << std::left << std::setw(15) << philosofers.at(i).getStateString() << " |";
+		stream << " " << std::left << std::setw(15) << philosofers.at(i).getStateString() << " |";
 	}
-	std::cout << std::endl;
+	stream << std::endl;
 }
 
-void Table::statesToFile()
+void Table::logPreamble(std::ostream& stream)
 {
-	log << "|";
+	stream << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl << "|";
 	for (size_t i = 0; i < count; i++)
 	{
-		log << " " << std::left << std::setw(15) << philosofers.at(i).getStateString() << " |";
+		stream << " " << std::left << std::setw(15) << philosofers.at(i).getName() << " |";
 	}
-	log << std::endl;
+	stream << std::endl << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl;
 }
 
 void Table::waitForLoggingPeriod()
 {
 	Sleep(logPeriod * 1000);
-}
-
-void Table::logPreamble()
-{
-	preambleToConsole();
-	preambleToFile();
-}
-
-void Table::preambleToConsole()
-{
-	std::cout << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl << "|";
-	for (size_t i = 0; i < count; i++)
-	{
-		std::cout << " " << std::left << std::setw(15) << philosofers.at(i).getName() << " |";
-	}
-	std::cout << std::endl << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl;
-}
-
-void Table::preambleToFile()
-{
-	log << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl << "|";
-	for (size_t i = 0; i < count; i++)
-	{
-		log << " " << std::left << std::setw(15) << philosofers.at(i).getName() << " |";
-	}
-	log << std::endl << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl;
 }
