@@ -50,13 +50,13 @@ void Table::lunch()
 		waitForLoggingPeriod();
 	}
 
+	logLine(std::cout);
+	logLine(log);
+
 	for (size_t i = 0; i < count; i++)
 	{
 		philosofers.at(i).stopReflection();
 	}
-
-	logLine(std::cout);
-	logLine(log);
 }
 
 void Table::logStates(std::ostream& stream)

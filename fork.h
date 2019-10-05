@@ -5,6 +5,7 @@
 class Fork
 {
 public:
+	Fork(const Fork&);
 	Fork();
 	~Fork();
 	void wait();

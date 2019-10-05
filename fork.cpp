@@ -6,9 +6,14 @@ Fork::Fork()
 	mutex = CreateMutex(NULL, FALSE, NULL);
 }
 
+Fork::Fork(const Fork& object)
+{
+	mutex = CreateMutex(NULL, FALSE, NULL);
+}
+
 Fork::~Fork()
 {
-	//CloseHandle(mutex);
+	CloseHandle(mutex);
 }
 
 void Fork::wait()

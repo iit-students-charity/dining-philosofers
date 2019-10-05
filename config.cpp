@@ -20,7 +20,6 @@ Config::Config(const char* source)
 {
 	pugi::xml_document doc;
 	pugi::xml_parse_result result = doc.load_file(source);
-	//	if (!result)
 
 	secondsToEat = (unsigned)doc.child("config").child("secondsToEat").text().as_int();
 	secondsToThink = (unsigned)doc.child("config").child("secondsToThink").text().as_int();

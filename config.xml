@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-  <secondsToEat>5</secondsToEat>
-  <secondsToThink>5</secondsToThink>
+  <secondsToEat>1</secondsToEat>
+  <secondsToThink>1</secondsToThink>
   <logPeriod>1</logPeriod>
-  <timeOut>3</timeOut>
+  <timeOut>30</timeOut>
   <logFile>log.txt</logFile>
   <philosofers>
     <philosofer>Socrates</philosofer>
