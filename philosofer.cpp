@@ -98,7 +98,7 @@ void Philosofer::reflectionCycle()
 
 void Philosofer::waitForThinking()
 {
-	Sleep(secondsToEat * 1000);
+	Sleep(secondsToThink * 1000);
 }
 
 void Philosofer::waitForEating()
