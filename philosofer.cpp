@@ -20,6 +20,8 @@ void Philosofer::startReflection()
 
 void Philosofer::stopReflection()
 {
+	log->log(name + ": setting stop event");
+
 	SetEvent(stopEvent);
 	WaitForSingleObject(thread, INFINITE);
 	CloseHandle(thread);
@@ -58,9 +60,9 @@ void Philosofer::setRightHand(Fork* fork)
 	rightHand = fork;
 }
 
-unsigned __stdcall Philosofer::callThreadMethod(void *p_this)
+unsigned __stdcall Philosofer::callThreadMethod(void *thisPointer)
 {
-	Philosofer* philosofer = (Philosofer*)(p_this);
+	Philosofer* philosofer = (Philosofer*)(thisPointer);
 	philosofer->reflectionLoop();
 	return 0;
 }

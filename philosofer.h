@@ -31,7 +31,7 @@ private:
 	HANDLE thread;
 	HANDLE stopEvent;
 
-	static unsigned __stdcall callThreadMethod(void *p_this);
+	static unsigned __stdcall callThreadMethod(void *thisPointer);
 	void reflectionLoop();
 	void waitForThinking();
 	void waitForEating();
