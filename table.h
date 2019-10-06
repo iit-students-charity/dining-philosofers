@@ -11,7 +11,7 @@
 class Table
 {
 public:
-	Table(Config config);
+	Table(Config* config);
 	~Table();
 	void lunch();
 

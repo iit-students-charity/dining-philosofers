@@ -25,6 +25,7 @@ Config::Config(const char* source)
 	secondsToThink = (unsigned)doc.child("config").child("secondsToThink").text().as_int();
 	logPeriod = (unsigned)doc.child("config").child("logPeriod").text().as_int();
 	timeOut = (unsigned)doc.child("config").child("timeOut").text().as_int();
+	outputFilePath = doc.child("config").child("OutputFile").text().as_string();
 	logFilePath = doc.child("config").child("logFile").text().as_string();
 
 	for (pugi::xml_node philosofer : doc.child("config").child("philosofers").children("philosofer"))
@@ -57,6 +58,11 @@ unsigned Config::getSecondsToThink()
 std::string Config::getLogFilePath()
 {
 	return logFilePath;
+}
+
+std::string Config::getOutputFilePath()
+{
+	return outputFilePath;
 }
 
 std::vector<std::string> Config::getPhilosoferNames()

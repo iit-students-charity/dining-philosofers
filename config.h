@@ -13,6 +13,7 @@ public:
 	unsigned getSecondsToThink();
 	unsigned getTimeOut();
 	std::string getLogFilePath();
+	std::string getOutputFilePath();
 	std::vector<std::string> getPhilosoferNames();
 
 private:
@@ -21,5 +22,6 @@ private:
 	unsigned secondsToThink;
 	unsigned timeOut;
 	std::string logFilePath;
+	std::string outputFilePath;
 	std::vector<std::string> philosoferNames;
 };

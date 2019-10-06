@@ -4,17 +4,17 @@
 
 #include <chrono>
 
-Table::Table(Config config) : log(config.getLogFilePath(), std::ofstream::app)
+Table::Table(Config* config) : log(config->getLogFilePath(), std::ofstream::app)
 {
-	count = config.getPhilosoferNames().size();
-	logPeriod = config.getLogPeriod();
-	timeOut = config.getTimeOut();
+	count = config->getPhilosoferNames().size();
+	logPeriod = config->getLogPeriod();
+	timeOut = config->getTimeOut();
 	for (size_t i = 0; i < count; i++)
 	{
 		Fork *fork = new Fork;
-		Philosofer *philosofer = new Philosofer(config.getPhilosoferNames().at(i), (unsigned)i);
-		philosofer->setSecondsToEat(config.getSecondsToEat());
-		philosofer->setSecondsToThink(config.getSecondsToThink());
+		Philosofer *philosofer = new Philosofer(config->getPhilosoferNames().at(i), (unsigned)i);
+		philosofer->setSecondsToEat(config->getSecondsToEat());
+		philosofer->setSecondsToThink(config->getSecondsToThink());
 		philosofers.push_back(*philosofer);
 		forks.push_back(*fork);
 	}
