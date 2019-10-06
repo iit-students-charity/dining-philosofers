@@ -14,4 +14,8 @@ public:
 private:
 	HANDLE mutex;
 	std::ofstream logFile;
+
+	std::string getHours(tm now);
+	std::string getMinutes(tm now);
+	std::string getSeconds(tm now);
 };
