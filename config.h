@@ -1,13 +1,14 @@
 #pragma once
 
+#include "log.h"
+
 #include <vector>
 #include <string>
 
 class Config
 {
 public:
-	Config();
-	Config(const char* source);
+	Config(const char* source, Log* log);
 	unsigned getOutputPeriod();
 	unsigned getSecondsToEat();
 	unsigned getSecondsToThink();
@@ -22,4 +23,5 @@ private:
 	unsigned timeOut;
 	std::string outputFilePath;
 	std::vector<std::string> philosoferNames;
+	Log* log;
 };

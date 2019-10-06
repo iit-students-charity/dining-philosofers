@@ -4,21 +4,10 @@
 #include "libs/pugixml/src/pugixml.hpp"
 #include "libs/pugixml/src/pugixml.cpp"
 
-Config::Config()
+Config::Config(const char* source, Log* log)
 {
-	timeOut = 30;
-	outputPeriod = 1;
-	secondsToEat = 5;
-	secondsToThink = 5;
-	philosoferNames.push_back("Socrates");
-	philosoferNames.push_back("Aristotle");
-	philosoferNames.push_back("Parmenides");
-	philosoferNames.push_back("Spinoza");
-	philosoferNames.push_back("Nietzsche");
-}
+	this->log = log;
 
-Config::Config(const char* source)
-{
 	pugi::xml_document doc;
 	pugi::xml_parse_result result = doc.load_file(source);
 
@@ -53,11 +42,6 @@ unsigned Config::getSecondsToEat()
 unsigned Config::getSecondsToThink()
 {
 	return secondsToThink;
-}
-
-std::string Config::getLogFilePath()
-{
-	return logFilePath;
 }
 
 std::string Config::getOutputFilePath()
