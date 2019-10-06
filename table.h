@@ -2,6 +2,7 @@
 
 #include "philosofer.h"
 #include "config.h"
+#include "log.h"
 
 #include <vector>
 #include <iostream>
@@ -22,6 +23,7 @@ private:
 	size_t count;
 	unsigned outputPeriod;
 	unsigned timeOut;
+	Log* log;
 
 	void outputStates(std::ostream &stream);
 	void outputHeading(std::ostream &stream);

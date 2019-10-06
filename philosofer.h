@@ -1,6 +1,7 @@
 #pragma once
 
 #include "fork.h"
+#include "log.h"
 
 #include <process.h>
 #include <string>
@@ -8,7 +9,7 @@
 class Philosofer
 {
 public:
-	Philosofer(std::string name, unsigned placeNumber);
+	Philosofer(std::string name, unsigned placeNumber, Log* log);
 	void startReflection();
 	void stopReflection();
 	std::string getName();
@@ -26,11 +27,12 @@ private:
 	unsigned secondsToThink;
 	Fork* leftHand;
 	Fork* rightHand;
+	Log* log;
 	HANDLE thread;
 	HANDLE stopEvent;
 
 	static unsigned __stdcall callThreadMethod(void *p_this);
-	void reflectionCycle();
+	void reflectionLoop();
 	void waitForThinking();
 	void waitForEating();
 	void setState(State state);

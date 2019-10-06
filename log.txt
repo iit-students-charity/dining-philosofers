@@ -1,0 +1,104 @@
+Table: creating processes...
+Table: processes created
+Spinoza: starting reflection loop
+Socrates: starting reflection loop
+Aristotle: starting reflection loop
+Parmenides: starting reflection loop
+Spinoza: state updated to thinking
+Nietzsche: starting reflection loop
+Socrates: state updated to thinking
+Aristotle: state updated to thinking
+Parmenides: state updated to thinking
+Spinoza: awaiting thinking, 1 seconds left
+Nietzsche: state updated to thinking
+Socrates: awaiting thinking, 1 seconds left
+Aristotle: awaiting thinking, 1 seconds left
+Parmenides: awaiting thinking, 1 seconds left
+Nietzsche: awaiting thinking, 1 seconds left
+Socrates: state updated to waiting right
+Spinoza: state updated to waiting left
+Aristotle: state updated to waiting left
+Socrates: state updated to waiting left
+Spinoza: state updated to waiting right
+Nietzsche: state updated to waiting right
+Socrates: state updated to eating
+Parmenides: state updated to waiting right
+Spinoza: state updated to eating
+Socrates: awaiting eating, 1 seconds left
+Spinoza: awaiting eating, 1 seconds left
+Nietzsche: state updated to waiting left
+Parmenides: state updated to waiting left
+Socrates: state updated to thinking
+Aristotle: state updated to waiting right
+Parmenides: state updated to eating
+Nietzsche: state updated to eating
+Socrates: awaiting thinking, 1 seconds left
+Spinoza: state updated to thinking
+Parmenides: awaiting eating, 1 seconds left
+Nietzsche: awaiting eating, 1 seconds left
+Spinoza: awaiting thinking, 1 seconds left
+Socrates: state updated to waiting right
+Parmenides: state updated to thinking
+Aristotle: state updated to eating
+Spinoza: state updated to waiting left
+Nietzsche: state updated to thinking
+Parmenides: awaiting thinking, 1 seconds left
+Aristotle: awaiting eating, 1 seconds left
+Spinoza: state updated to waiting right
+Nietzsche: awaiting thinking, 1 seconds left
+Spinoza: state updated to eating
+Spinoza: awaiting eating, 1 seconds left
+Parmenides: state updated to waiting right
+Nietzsche: state updated to waiting right
+Aristotle: state updated to thinking
+Spinoza: state updated to thinking
+Socrates: state updated to waiting left
+Parmenides: state updated to waiting left
+Nietzsche: state updated to waiting left
+Aristotle: awaiting thinking, 1 seconds left
+Spinoza: awaiting thinking, 1 seconds left
+Parmenides: state updated to eating
+Nietzsche: state updated to eating
+Parmenides: awaiting eating, 1 seconds left
+Nietzsche: awaiting eating, 1 seconds left
+Aristotle: state updated to waiting left
+Nietzsche: state updated to thinking
+Spinoza: state updated to waiting left
+Parmenides: state updated to thinking
+Socrates: state updated to eating
+Nietzsche: awaiting thinking, 1 seconds left
+Spinoza: state updated to waiting right
+Parmenides: awaiting thinking, 1 seconds left
+Socrates: awaiting eating, 1 seconds left
+Spinoza: state updated to eating
+Spinoza: awaiting eating, 1 seconds left
+Table: timeout reached, exiting...
+Parmenides: state updated to waiting right
+Socrates: process exited correctly
+Nietzsche: state updated to waiting right
+Aristotle: state updated to waiting right
+Nietzsche: state updated to waiting left
+Spinoza: state updated to thinking
+Parmenides: state updated to waiting left
+Aristotle: state updated to eating
+Nietzsche: state updated to eating
+Spinoza: awaiting thinking, 1 seconds left
+Aristotle: awaiting eating, 1 seconds left
+Nietzsche: awaiting eating, 1 seconds left
+Aristotle: process exited correctly
+Spinoza: state updated to waiting left
+Parmenides: state updated to eating
+Nietzsche: state updated to thinking
+Parmenides: awaiting eating, 1 seconds left
+Nietzsche: awaiting thinking, 1 seconds left
+Parmenides: process exited correctly
+Spinoza: state updated to waiting right
+Spinoza: state updated to eating
+Spinoza: awaiting eating, 1 seconds left
+Nietzsche: state updated to waiting right
+Nietzsche: state updated to waiting left
+Spinoza: process exited correctly
+Nietzsche: state updated to eating
+Nietzsche: awaiting eating, 1 seconds left
+Nietzsche: process exited correctly
+Table: all processes exited

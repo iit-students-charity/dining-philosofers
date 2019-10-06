@@ -1,18 +1,18 @@
 #include "stdafx.h"
 #include "table.h"
-#include "config.h"
 
 #include <chrono>
 
 Table::Table(Config* config) : output(config->getOutputFilePath(), std::ofstream::app)
 {
+	log = new Log(config->getLogFilePath());
 	count = config->getPhilosoferNames().size();
 	outputPeriod = config->getOutputPeriod();
 	timeOut = config->getTimeOut();
 	for (size_t i = 0; i < count; i++)
 	{
 		Fork *fork = new Fork;
-		Philosofer *philosofer = new Philosofer(config->getPhilosoferNames().at(i), (unsigned)i);
+		Philosofer *philosofer = new Philosofer(config->getPhilosoferNames().at(i), (unsigned)i, log);
 		philosofer->setSecondsToEat(config->getSecondsToEat());
 		philosofer->setSecondsToThink(config->getSecondsToThink());
 		philosofers.push_back(*philosofer);
@@ -27,6 +27,7 @@ Table::Table(Config* config) : output(config->getOutputFilePath(), std::ofstream
 
 Table::~Table()
 {
+	delete log;
 	philosofers.clear();
 	forks.clear();
 	output.close();
@@ -37,10 +38,14 @@ void Table::lunch()
 	outputHeading(std::cout);
 	outputHeading(output);
 
+	log->log("Table: creating processes...");
+
 	for (size_t i = 0; i < count; i++)
 	{
 		philosofers.at(i).startReflection();
 	}
+
+	log->log("Table: processes created");
 
 	std::chrono::steady_clock::time_point start = std::chrono::steady_clock::now();
 	while (std::chrono::steady_clock::now() - start < std::chrono::seconds(timeOut))
@@ -50,6 +55,8 @@ void Table::lunch()
 		waitForOutputPeriod();
 	}
 
+	log->log("Table: timeout reached, exiting...");
+
 	outputLine(std::cout);
 	outputLine(output);
 
@@ -57,6 +64,7 @@ void Table::lunch()
 	{
 		philosofers.at(i).stopReflection();
 	}
+	log->log("Table: all processes exited");
 }
 
 void Table::outputStates(std::ostream& stream)

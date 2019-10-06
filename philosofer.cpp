@@ -2,14 +2,15 @@
 #include "philosofer.h"
 #include "config.h"
 
-Philosofer::Philosofer(std::string name, unsigned placeNumber)
+Philosofer::Philosofer(std::string name, unsigned placeNumber, Log* log)
 {
-	this->placeNumber = placeNumber;
 	this->name = name;
+	this->placeNumber = placeNumber;
+	this->log = log;
 	secondsToThink = 5;
 	secondsToEat = 5;
 	stopEvent = CreateEvent(NULL, TRUE, FALSE, NULL);
-	setState(Thinking);
+	state = Thinking;
 }
 
 void Philosofer::startReflection()
@@ -60,12 +61,14 @@ void Philosofer::setRightHand(Fork* fork)
 unsigned __stdcall Philosofer::callThreadMethod(void *p_this)
 {
 	Philosofer* philosofer = (Philosofer*)(p_this);
-	philosofer->reflectionCycle();
+	philosofer->reflectionLoop();
 	return 0;
 }
 
-void Philosofer::reflectionCycle()
+void Philosofer::reflectionLoop()
 {
+	log->log(name + ": starting reflection loop");
+
 	while (WaitForSingleObject(stopEvent, 0) != WAIT_OBJECT_0)
 	{
 		setState(Thinking);
@@ -94,21 +97,26 @@ void Philosofer::reflectionCycle()
 		leftHand->free();
 		rightHand->free();
 	}
+
+	log->log(name + ": process exited correctly");
 }
 
 void Philosofer::waitForThinking()
 {
+	log->log(name + ": awaiting thinking, " + std::to_string(secondsToThink) + " seconds left");
 	Sleep(secondsToThink * 1000);
 }
 
 void Philosofer::waitForEating()
 {
+	log->log(name + ": awaiting eating, " + std::to_string(secondsToEat) + " seconds left");
 	Sleep(secondsToEat * 1000);
 }
 
 void Philosofer::setState(State state)
 {
 	this->state = state;
+	log->log(name + ": state updated to " + getStateString());
 }
 
 bool Philosofer::isPlaceNumberOdd()

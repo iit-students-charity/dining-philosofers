@@ -151,6 +151,7 @@
     <ClInclude Include="fork.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Header1.h" />
+    <ClInclude Include="log.h" />
     <ClInclude Include="philosofer.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="table.h" />
@@ -159,6 +160,7 @@
   <ItemGroup>
     <ClCompile Include="config.cpp" />
     <ClCompile Include="fork.cpp" />
+    <ClCompile Include="log.cpp" />
     <ClCompile Include="OS2.cpp" />
     <ClCompile Include="philosofer.cpp" />
     <ClCompile Include="stdafx.cpp">
