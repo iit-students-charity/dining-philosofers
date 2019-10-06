@@ -4,10 +4,10 @@
 
 #include <chrono>
 
-Table::Table(Config* config) : log(config->getLogFilePath(), std::ofstream::app)
+Table::Table(Config* config) : output(config->getOutputFilePath(), std::ofstream::app)
 {
 	count = config->getPhilosoferNames().size();
-	logPeriod = config->getLogPeriod();
+	outputPeriod = config->getOutputPeriod();
 	timeOut = config->getTimeOut();
 	for (size_t i = 0; i < count; i++)
 	{
@@ -29,13 +29,13 @@ Table::~Table()
 {
 	philosofers.clear();
 	forks.clear();
-	log.close();
+	output.close();
 }
 
 void Table::lunch()
 {
-	logHeading(std::cout);
-	logHeading(log);
+	outputHeading(std::cout);
+	outputHeading(output);
 
 	for (size_t i = 0; i < count; i++)
 	{
@@ -45,13 +45,13 @@ void Table::lunch()
 	std::chrono::steady_clock::time_point start = std::chrono::steady_clock::now();
 	while (std::chrono::steady_clock::now() - start < std::chrono::seconds(timeOut))
 	{
-		logStates(std::cout);
-		logStates(log);
-		waitForLoggingPeriod();
+		outputStates(std::cout);
+		outputStates(output);
+		waitForOutputPeriod();
 	}
 
-	logLine(std::cout);
-	logLine(log);
+	outputLine(std::cout);
+	outputLine(output);
 
 	for (size_t i = 0; i < count; i++)
 	{
@@ -59,7 +59,7 @@ void Table::lunch()
 	}
 }
 
-void Table::logStates(std::ostream& stream)
+void Table::outputStates(std::ostream& stream)
 {
 	stream << "|";
 	for (size_t i = 0; i < count; i++)
@@ -69,24 +69,24 @@ void Table::logStates(std::ostream& stream)
 	stream << std::endl;
 }
 
-void Table::logHeading(std::ostream& stream)
+void Table::outputHeading(std::ostream& stream)
 {
-	logLine(stream);
+	outputLine(stream);
 	stream << "|";
 	for (size_t i = 0; i < count; i++)
 	{
 		stream << " " << std::left << std::setw(15) << philosofers.at(i).getName() << " |";
 	}
 	stream << std::endl;
-	logLine(stream);
+	outputLine(stream);
 }
 
-void Table::logLine(std::ostream& stream)
+void Table::outputLine(std::ostream& stream)
 {
 	stream << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl;
 }
 
-void Table::waitForLoggingPeriod()
+void Table::waitForOutputPeriod()
 {
-	Sleep(logPeriod * 1000);
+	Sleep(outputPeriod * 1000);
 }

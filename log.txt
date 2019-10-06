@@ -1,6 +1,0 @@
-#-----------------------------------------------------------------------------------------#
-| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
-#-----------------------------------------------------------------------------------------#
-| thinking        | thinking        | thinking        | thinking        | thinking        |
-| waiting right   | eating          | waiting right   | eating          | waiting left    |
-| waiting left    | thinking        | eating          | thinking        | eating          |

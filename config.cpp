@@ -6,7 +6,7 @@
 
 Config::Config()
 {
-	logPeriod = 1;
+	outputPeriod = 1;
 	secondsToEat = 5;
 	secondsToThink = 5;
 	philosoferNames.push_back("Socrates");
@@ -23,9 +23,9 @@ Config::Config(const char* source)
 
 	secondsToEat = (unsigned)doc.child("config").child("secondsToEat").text().as_int();
 	secondsToThink = (unsigned)doc.child("config").child("secondsToThink").text().as_int();
-	logPeriod = (unsigned)doc.child("config").child("logPeriod").text().as_int();
+	outputPeriod = (unsigned)doc.child("config").child("outputPeriod").text().as_int();
 	timeOut = (unsigned)doc.child("config").child("timeOut").text().as_int();
-	outputFilePath = doc.child("config").child("OutputFile").text().as_string();
+	outputFilePath = doc.child("config").child("outputFile").text().as_string();
 	logFilePath = doc.child("config").child("logFile").text().as_string();
 
 	for (pugi::xml_node philosofer : doc.child("config").child("philosofers").children("philosofer"))
@@ -35,9 +35,9 @@ Config::Config(const char* source)
 	}
 }
 
-unsigned Config::getLogPeriod()
+unsigned Config::getOutputPeriod()
 {
-	return logPeriod;
+	return outputPeriod;
 }
 
 unsigned Config::getTimeOut()

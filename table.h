@@ -18,13 +18,13 @@ public:
 private:
 	std::vector<Philosofer> philosofers;
 	std::vector<Fork> forks;
-	std::ofstream log;
+	std::ofstream output;
 	size_t count;
-	unsigned logPeriod;
+	unsigned outputPeriod;
 	unsigned timeOut;
 
-	void logStates(std::ostream &stream);
-	void logHeading(std::ostream &stream);
-	void logLine(std::ostream &stream);
-	void waitForLoggingPeriod();
+	void outputStates(std::ostream &stream);
+	void outputHeading(std::ostream &stream);
+	void outputLine(std::ostream &stream);
+	void waitForOutputPeriod();
 };

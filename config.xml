@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-  <secondsToEat>1</secondsToEat>
-  <secondsToThink>1</secondsToThink>
-  <logPeriod>1</logPeriod>
   <timeOut>5</timeOut>
-  <outputFile>output.txt</outputFile>
   <logFile>log.txt</logFile>
+  <outputFile>output.txt</outputFile>
+  <outputPeriod>1</outputPeriod>
+  
   <philosofers>
     <philosofer>Socrates</philosofer>
     <philosofer>Aristotle</philosofer>
@@ -13,4 +12,7 @@
     <philosofer>Spinoza</philosofer>
     <philosofer>Nietzsche</philosofer>
   </philosofers>
+
+  <secondsToEat>1</secondsToEat>
+  <secondsToThink>1</secondsToThink>
 </config>

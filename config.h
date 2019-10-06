@@ -8,7 +8,7 @@ class Config
 public:
 	Config();
 	Config(const char* source);
-	unsigned getLogPeriod();
+	unsigned getOutputPeriod();
 	unsigned getSecondsToEat();
 	unsigned getSecondsToThink();
 	unsigned getTimeOut();
@@ -17,7 +17,7 @@ public:
 	std::vector<std::string> getPhilosoferNames();
 
 private:
-	unsigned logPeriod;
+	unsigned outputPeriod;
 	unsigned secondsToEat;
 	unsigned secondsToThink;
 	unsigned timeOut;
