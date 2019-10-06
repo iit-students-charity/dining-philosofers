@@ -3,9 +3,9 @@
 
 #include <chrono>
 
-Table::Table(Config* config) : output(config->getOutputFilePath(), std::ofstream::app)
+Table::Table(Config* config, Log* log) : output(config->getOutputFilePath(), std::ofstream::app)
 {
-	log = new Log(config->getLogFilePath());
+	this->log = log;
 	count = config->getPhilosoferNames().size();
 	outputPeriod = config->getOutputPeriod();
 	timeOut = config->getTimeOut();
@@ -27,7 +27,6 @@ Table::Table(Config* config) : output(config->getOutputFilePath(), std::ofstream
 
 Table::~Table()
 {
-	delete log;
 	philosofers.clear();
 	forks.clear();
 	output.close();

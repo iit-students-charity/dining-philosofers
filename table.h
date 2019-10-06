@@ -12,7 +12,7 @@
 class Table
 {
 public:
-	Table(Config* config);
+	Table(Config* config, Log* log);
 	~Table();
 	void lunch();
 

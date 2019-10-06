@@ -6,6 +6,7 @@
 
 Config::Config()
 {
+	timeOut = 30;
 	outputPeriod = 1;
 	secondsToEat = 5;
 	secondsToThink = 5;
@@ -26,7 +27,6 @@ Config::Config(const char* source)
 	outputPeriod = (unsigned)doc.child("config").child("outputPeriod").text().as_int();
 	timeOut = (unsigned)doc.child("config").child("timeOut").text().as_int();
 	outputFilePath = doc.child("config").child("outputFile").text().as_string();
-	logFilePath = doc.child("config").child("logFile").text().as_string();
 
 	for (pugi::xml_node philosofer : doc.child("config").child("philosofers").children("philosofer"))
 	{
