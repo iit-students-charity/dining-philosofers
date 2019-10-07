@@ -1,117 +1,2057 @@
-02:11:59 | Table: creating processes...
-02:11:59 | Table: processes created
-02:11:59 | Aristotle: starting reflection loop
-02:11:59 | Socrates: starting reflection loop
-02:11:59 | Parmenides: starting reflection loop
-02:11:59 | Aristotle: state updated to thinking
-02:11:59 | Socrates: state updated to thinking
-02:11:59 | Parmenides: state updated to thinking
-02:11:59 | Spinoza: starting reflection loop
-02:11:59 | Nietzsche: starting reflection loop
-02:11:59 | Aristotle: awaiting thinking, 1 seconds left
-02:11:59 | Socrates: awaiting thinking, 1 seconds left
-02:11:59 | Parmenides: awaiting thinking, 1 seconds left
-02:11:59 | Spinoza: state updated to thinking
-02:11:59 | Nietzsche: state updated to thinking
-02:11:59 | Spinoza: awaiting thinking, 1 seconds left
-02:11:59 | Nietzsche: awaiting thinking, 1 seconds left
-02:12:00 | Parmenides: state updated to waiting right
-02:12:00 | Aristotle: state updated to waiting left
-02:12:00 | Socrates: state updated to waiting right
-02:12:00 | Parmenides: state updated to waiting left
-02:12:00 | Aristotle: state updated to waiting right
-02:12:00 | Parmenides: state updated to eating
-02:12:00 | Parmenides: awaiting eating, 1 seconds left
-02:12:00 | Nietzsche: state updated to waiting right
-02:12:00 | Spinoza: state updated to waiting left
-02:12:00 | Nietzsche: state updated to waiting left
-02:12:00 | Nietzsche: state updated to eating
-02:12:00 | Nietzsche: awaiting eating, 1 seconds left
-02:12:01 | Parmenides: state updated to thinking
-02:12:01 | Aristotle: state updated to eating
-02:12:01 | Spinoza: state updated to waiting right
-02:12:01 | Parmenides: awaiting thinking, 1 seconds left
-02:12:01 | Aristotle: awaiting eating, 1 seconds left
-02:12:01 | Spinoza: state updated to eating
-02:12:01 | Nietzsche: state updated to thinking
-02:12:01 | Spinoza: awaiting eating, 1 seconds left
-02:12:01 | Nietzsche: awaiting thinking, 1 seconds left
-02:12:02 | Parmenides: state updated to waiting right
-02:12:02 | Aristotle: state updated to thinking
-02:12:02 | Socrates: state updated to waiting left
-02:12:02 | Aristotle: awaiting thinking, 1 seconds left
-02:12:02 | Spinoza: state updated to thinking
-02:12:02 | Nietzsche: state updated to waiting right
-02:12:02 | Parmenides: state updated to waiting left
-02:12:02 | Socrates: state updated to eating
-02:12:02 | Spinoza: awaiting thinking, 1 seconds left
-02:12:02 | Parmenides: state updated to eating
-02:12:02 | Socrates: awaiting eating, 1 seconds left
-02:12:02 | Parmenides: awaiting eating, 1 seconds left
-02:12:03 | Aristotle: state updated to waiting left
-02:12:03 | Spinoza: state updated to waiting left
-02:12:03 | Socrates: state updated to thinking
-02:12:03 | Aristotle: state updated to waiting right
-02:12:03 | Nietzsche: state updated to waiting left
-02:12:03 | Socrates: awaiting thinking, 1 seconds left
-02:12:03 | Parmenides: state updated to thinking
-02:12:03 | Spinoza: state updated to waiting right
-02:12:03 | Aristotle: state updated to eating
-02:12:03 | Nietzsche: state updated to eating
-02:12:03 | Parmenides: awaiting thinking, 1 seconds left
-02:12:03 | Aristotle: awaiting eating, 1 seconds left
-02:12:03 | Nietzsche: awaiting eating, 1 seconds left
-02:12:04 | Socrates: state updated to waiting right
-02:12:04 | Parmenides: state updated to waiting right
-02:12:04 | Aristotle: state updated to thinking
-02:12:04 | Socrates: state updated to waiting left
-02:12:04 | Aristotle: awaiting thinking, 1 seconds left
-02:12:04 | Nietzsche: state updated to thinking
-02:12:04 | Socrates: state updated to eating
-02:12:04 | Spinoza: state updated to eating
-02:12:04 | Nietzsche: awaiting thinking, 1 seconds left
-02:12:04 | Socrates: awaiting eating, 1 seconds left
-02:12:04 | Spinoza: awaiting eating, 1 seconds left
-02:12:04 | Table: timeout reached, exiting...
-02:12:04 | Socrates: setting stop event
-02:12:05 | Aristotle: state updated to waiting left
-02:12:05 | Nietzsche: state updated to waiting right
-02:12:05 | Spinoza: state updated to thinking
-02:12:05 | Socrates: process exited correctly
-02:12:05 | Aristotle: state updated to waiting right
-02:12:05 | Spinoza: awaiting thinking, 1 seconds left
-02:12:05 | Parmenides: state updated to waiting left
-02:12:05 | Nietzsche: state updated to waiting left
-02:12:05 | Aristotle: state updated to eating
-02:12:05 | Aristotle: setting stop event
-02:12:05 | Nietzsche: state updated to eating
-02:12:05 | Aristotle: awaiting eating, 1 seconds left
-02:12:05 | Nietzsche: awaiting eating, 1 seconds left
-02:12:06 | Spinoza: state updated to waiting left
-02:12:06 | Aristotle: process exited correctly
-02:12:06 | Nietzsche: state updated to thinking
-02:12:06 | Parmenides: state updated to eating
-02:12:06 | Parmenides: setting stop event
-02:12:06 | Nietzsche: awaiting thinking, 1 seconds left
-02:12:06 | Parmenides: awaiting eating, 1 seconds left
-02:12:07 | Parmenides: process exited correctly
-02:12:07 | Nietzsche: state updated to waiting right
-02:12:07 | Spinoza: state updated to waiting right
-02:12:07 | Spinoza: setting stop event
-02:12:07 | Nietzsche: state updated to waiting left
-02:12:07 | Spinoza: state updated to eating
-02:12:07 | Spinoza: awaiting eating, 1 seconds left
-02:12:08 | Nietzsche: state updated to eating
-02:12:08 | Spinoza: process exited correctly
-02:12:08 | Nietzsche: awaiting eating, 1 seconds left
-02:12:08 | Nietzsche: setting stop event
-02:12:09 | Nietzsche: process exited correctly
-02:12:09 | Table: all processes exited
-21:10:50 | Config error. SecondsToEat tag should present and be 1 or more
-21:10:50 | Config error. SecondsToThink tag should present and be 1 or more
-21:10:50 | Config error. OutputPeriod tag should present and be 1 or more
-21:10:50 | Config error. Timeout tag should present and be 1 or more
-21:10:50 | Config error. outputFilePath tag should present
-21:10:50 | Config error. Philosofers tag should contain at least 1 philosofer tag
-21:15:44 | Config error. Cannot open config.xml
-21:16:34 | Config error. Cannot open config.xml
+01:10:23 | Table: creating processes...
+01:10:23 | Table: processes created
+01:10:23 | Socrates: starting reflection loop
+01:10:23 | Aristotle: starting reflection loop
+01:10:23 | Socrates: state updated to thinking
+01:10:23 | Parmenides: starting reflection loop
+01:10:23 | Aristotle: state updated to thinking
+01:10:23 | Spinoza: starting reflection loop
+01:10:23 | Socrates: awaiting thinking, 1 seconds left
+01:10:23 | Parmenides: state updated to thinking
+01:10:23 | Nietzsche: starting reflection loop
+01:10:23 | Aristotle: awaiting thinking, 1 seconds left
+01:10:23 | Spinoza: state updated to thinking
+01:10:23 | Parmenides: awaiting thinking, 1 seconds left
+01:10:23 | Nietzsche: state updated to thinking
+01:10:23 | Spinoza: awaiting thinking, 1 seconds left
+01:10:23 | Nietzsche: awaiting thinking, 1 seconds left
+01:10:24 | Socrates: state updated to waiting right
+01:10:24 | Socrates: state updated to waiting left
+01:10:24 | Socrates: state updated to eating
+01:10:24 | Socrates: awaiting eating, 1 seconds left
+01:10:24 | Aristotle: state updated to waiting left
+01:10:24 | Spinoza: state updated to waiting left
+01:10:24 | Nietzsche: state updated to waiting right
+01:10:24 | Parmenides: state updated to waiting right
+01:10:24 | Spinoza: state updated to waiting right
+01:10:24 | Spinoza: state updated to eating
+01:10:24 | Spinoza: awaiting eating, 1 seconds left
+01:10:25 | Aristotle: state updated to waiting right
+01:10:25 | Nietzsche: state updated to waiting left
+01:10:25 | Socrates: state updated to thinking
+01:10:25 | Aristotle: state updated to eating
+01:10:25 | Socrates: awaiting thinking, 1 seconds left
+01:10:25 | Aristotle: awaiting eating, 1 seconds left
+01:10:25 | Spinoza: state updated to thinking
+01:10:25 | Parmenides: state updated to waiting left
+01:10:25 | Nietzsche: state updated to eating
+01:10:25 | Spinoza: awaiting thinking, 1 seconds left
+01:10:25 | Nietzsche: awaiting eating, 1 seconds left
+01:10:26 | Socrates: state updated to waiting right
+01:10:26 | Nietzsche: state updated to thinking
+01:10:26 | Nietzsche: awaiting thinking, 1 seconds left
+01:10:26 | Spinoza: state updated to waiting left
+01:10:26 | Parmenides: state updated to eating
+01:10:26 | Socrates: state updated to waiting left
+01:10:26 | Parmenides: awaiting eating, 1 seconds left
+01:10:26 | Aristotle: state updated to thinking
+01:10:26 | Socrates: state updated to eating
+01:10:26 | Aristotle: awaiting thinking, 1 seconds left
+01:10:26 | Socrates: awaiting eating, 1 seconds left
+01:10:27 | Nietzsche: state updated to waiting right
+01:10:27 | Socrates: state updated to thinking
+01:10:27 | Parmenides: state updated to thinking
+01:10:27 | Aristotle: state updated to waiting left
+01:10:27 | Nietzsche: state updated to waiting left
+01:10:27 | Spinoza: state updated to waiting right
+01:10:27 | Socrates: awaiting thinking, 1 seconds left
+01:10:27 | Parmenides: awaiting thinking, 1 seconds left
+01:10:27 | Aristotle: state updated to waiting right
+01:10:27 | Nietzsche: state updated to eating
+01:10:27 | Aristotle: state updated to eating
+01:10:27 | Nietzsche: awaiting eating, 1 seconds left
+01:10:27 | Aristotle: awaiting eating, 1 seconds left
+01:10:28 | Aristotle: state updated to thinking
+01:10:28 | Spinoza: state updated to eating
+01:10:28 | Nietzsche: state updated to thinking
+01:10:28 | Parmenides: state updated to waiting right
+01:10:28 | Socrates: state updated to waiting right
+01:10:28 | Aristotle: awaiting thinking, 1 seconds left
+01:10:28 | Spinoza: awaiting eating, 1 seconds left
+01:10:28 | Nietzsche: awaiting thinking, 1 seconds left
+01:10:28 | Socrates: state updated to waiting left
+01:10:28 | Socrates: state updated to eating
+01:10:28 | Socrates: awaiting eating, 1 seconds left
+01:10:29 | Socrates: state updated to thinking
+01:10:29 | Aristotle: state updated to waiting left
+01:10:29 | Nietzsche: state updated to waiting right
+01:10:29 | Spinoza: state updated to thinking
+01:10:29 | Parmenides: state updated to waiting left
+01:10:29 | Socrates: awaiting thinking, 1 seconds left
+01:10:29 | Aristotle: state updated to waiting right
+01:10:01:11:08 | Table: creating processes...
+01:11:08 | Socrates: starting reflection loop
+01:11:08 | Table: processes created
+01:11:08 | Aristotle: starting reflection loop
+01:11:08 | Socrates: state updated to thinking
+01:11:08 | Spinoza: starting reflection loop
+01:11:08 | Nietzsche: starting reflection loop
+01:11:08 | Aristotle: state updated to thinking
+01:11:08 | Socrates: awaiting thinking, 1 seconds left
+01:11:08 | Spinoza: state updated to thinking
+01:11:08 | Nietzsche: state updated to thinking
+01:11:08 | Aristotle: awaiting thinking, 1 seconds left
+01:11:08 | Parmenides: starting reflection loop
+01:11:08 | Spinoza: awaiting thinking, 1 seconds left
+01:11:08 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:08 | Parmenides: state updated to thinking
+01:11:08 | Parmenides: awaiting thinking, 1 seconds left
+01:11:09 | Parmenides: state updated to waiting right
+01:11:09 | Socrates: state updated to waiting right
+01:11:09 | Spinoza: state updated to waiting left
+01:11:09 | Aristotle: state updated to waiting left
+01:11:09 | Nietzsche: state updated to waiting right
+01:11:09 | Parmenides: state updated to waiting left
+01:11:09 | Socrates: state updated to waiting left
+01:11:09 | Nietzsche: state updated to waiting left
+01:11:09 | Parmenides: state updated to eating
+01:11:09 | Nietzsche: state updated to eating
+01:11:09 | Parmenides: awaiting eating, 1 seconds left
+01:11:09 | Nietzsche: awaiting eating, 1 seconds left
+01:11:10 | Nietzsche: state updated to thinking
+01:11:10 | Parmenides: state updated to thinking
+01:11:10 | Spinoza: state updated to waiting right
+01:11:10 | Socrates: state updated to eating
+01:11:10 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:10 | Parmenides: awaiting thinking, 1 seconds left
+01:11:10 | Spinoza: state updated to eating
+01:11:10 | Socrates: awaiting eating, 1 seconds left
+01:11:10 | Spinoza: awaiting eating, 1 seconds left
+01:11:11 | Parmenides: state updated to waiting right
+01:11:11 | Spinoza: state updated to thinking
+01:11:11 | Nietzsche: state updated to waiting right
+01:11:11 | Socrates: state updated to thinking
+01:11:11 | Aristotle: state updated to waiting right
+01:11:11 | Parmenides: state updated to waiting left
+01:11:11 | Spinoza: awaiting thinking, 1 seconds left
+01:11:11 | Nietzsche: state updated to waiting left
+01:11:11 | Socrates: awaiting thinking, 1 seconds left
+01:11:11 | Aristotle: state updated to eating
+01:11:11 | Nietzsche: state updated to eating
+01:11:11 | Aristotle: awaiting eating, 1 seconds left
+01:11:11 | Nietzsche: awaiting eating, 1 seconds left
+01:11:12 | Spinoza: state updated to waiting left
+01:11:12 | Socrates: state updated to waiting right
+01:11:12 | Nietzsche: state updated to thinking
+01:11:12 | Aristotle: state updated to thinking
+01:11:12 | Socrates: state updated to waiting left
+01:11:12 | Parmenides: state updated to eating
+01:11:12 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:12 | Aristotle: awaiting thinking, 1 seconds left
+01:11:12 | Socrates: state updated to eating
+01:11:12 | Parmenides: awaiting eating, 1 seconds left
+01:11:12 | Socrates: awaiting eating, 1 seconds left
+01:11:13 | Parmenides: state updated to thinking
+01:11:13 | Socrates: state updated to thinking
+01:11:13 | Nietzsche: state updated to waiting right
+01:11:13 | Aristotle: state updated to waiting left
+01:11:13 | Spinoza: state updated to waiting right
+01:11:13 | Parmenides: awaiting thinking, 1 seconds left
+01:11:13 | Socrates: awaiting thinking, 1 seconds left
+01:11:13 | Nietzsche: state updated to waiting left
+01:11:13 | Aristotle: state updated to waiting right
+01:11:13 | Spinoza: state updated to eating
+01:11:13 | Aristotle: state updated to eating
+01:11:13 | Spinoza: awaiting eating, 1 seconds left
+01:11:13 | Aristotle: awaiting eating, 1 seconds left
+01:11:14 | Socrates: state updated to waiting right
+01:11:14 | Parmenides: state updated to waiting right
+01:11:14 | Aristotle: state updated to thinking
+01:11:14 | Spinoza: state updated to thinking
+01:11:14 | Socrates: state updated to waiting left
+01:11:14 | Nietzsche: state updated to eating
+01:11:14 | Parmenides: state updated to waiting left
+01:11:14 | Spinoza: awaiting thinking, 1 seconds left
+01:11:14 | Spinoza: awaiting thinking, 1 seconds left
+01:11:14 | Nietzsche: awaiting eating, 1 seconds left
+01:11:14 | Parmenides: state updated to eating
+01:11:14 | Parmenides: awaiting eating, 1 seconds left
+01:11:15 | Nietzsche: state updated to thinking
+01:11:15 | Socrates: state updated to eating
+01:11:15 | Aristotle: state updated to waiting left
+01:11:15 | Spinoza: state updated to waiting left
+01:11:15 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:15 | Socrates: awaiting eating, 1 seconds left
+01:11:15 | Parmenides: state updated to thinking
+01:11:15 | Spinoza: state updated to waiting right
+01:11:15 | Parmenides: awaiting thinking, 1 seconds left
+01:11:15 | Spinoza: state updated to eating
+01:11:15 | Spinoza: awaiting eating, 1 seconds left
+01:11:16 | Socrates: state updated to thinking
+01:11:16 | Nietzsche: state updated to waiting right
+01:11:16 | Aristotle: state updated to waiting right
+01:11:16 | Socrates: awaiting thinking, 1 seconds left
+01:11:16 | Nietzsche: state updated to waiting left
+01:11:16 | Aristotle: state updated to eating
+01:11:16 | Aristotle: awaiting eating, 1 seconds left
+01:11:16 | Parmenides: state updated to waiting right
+01:11:16 | Spinoza: state updated to thinking
+01:11:16 | Nietzsche: state updated to eating
+01:11:16 | Parmenides: state updated to waiting left
+01:11:16 | Spinoza: awaiting thinking, 1 seconds left
+01:11:16 | Nietzsche: awaiting eating, 1 seconds left
+01:11:17 | Aristotle: state updated to thinking
+01:11:17 | Socrates: state updated to waiting right
+01:11:17 | Parmenides: state updated to eating
+01:11:17 | Aristotle: awaiting thinking, 1 seconds left
+01:11:17 | Socrates: state updated to waiting left
+01:11:17 | Parmenides: awaiting eating, 1 seconds left
+01:11:17 | Nietzsche: state updated to thinking
+01:11:17 | Socrates: state updated to eating
+01:11:17 | Spinoza: state updated to waiting left
+01:11:17 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:17 | Socrates: awaiting eating, 1 seconds left
+01:11:18 | Aristotle: state updated to waiting left
+01:11:18 | Parmenides: state updated to thinking
+01:11:18 | Spinoza: state updated to waiting right
+01:11:18 | Parmenides: awaiting thinking, 1 seconds left
+01:11:18 | Spinoza: state updated to eating
+01:11:18 | Spinoza: awaiting eating, 1 seconds left
+01:11:18 | Socrates: state updated to thinking
+01:11:18 | Nietzsche: state updated to waiting right
+01:11:18 | Aristotle: state updated to waiting right
+01:11:18 | Socrates: awaiting thinking, 1 seconds left
+01:11:18 | Nietzsche: state updated to waiting left
+01:11:18 | Aristotle: state updated to eating
+01:11:18 | Aristotle: awaiting eating, 1 seconds left
+01:11:19 | Spinoza: state updated to thinking
+01:11:19 | Nietzsche: state updated to eating
+01:11:19 | Parmenides: state updated to waiting right
+01:11:19 | Spinoza: awaiting thinking, 1 seconds left
+01:11:19 | Nietzsche: awaiting eating, 1 seconds left
+01:11:19 | Parmenides: state updated to waiting left
+01:11:19 | Aristotle: state updated to thinking
+01:11:19 | Socrates: state updated to waiting right
+01:11:19 | Parmenides: state updated to eating
+01:11:19 | Aristotle: awaiting thinking, 1 seconds left
+01:11:19 | Socrates: state updated to waiting left
+01:11:19 | Parmenides: awaiting eating, 1 seconds left
+01:11:20 | Nietzsche: state updated to thinking
+01:11:20 | Spinoza: state updated to waiting left
+01:11:20 | Socrates: state updated to eating
+01:11:20 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:20 | Socrates: awaiting eating, 1 seconds left
+01:11:20 | Aristotle: state updated to waiting left
+01:11:20 | Parmenides: state updated to thinking
+01:11:20 | Spinoza: state updated to waiting right
+01:11:20 | Parmenides: awaiting thinking, 1 seconds left
+01:11:20 | Spinoza: state updated to eating
+01:11:20 | Spinoza: awaiting eating, 1 seconds left
+01:11:21 | Socrates: state updated to thinking
+01:11:21 | Nietzsche: state updated to waiting right
+01:11:21 | Aristotle: state updated to waiting right
+01:11:21 | Socrates: awaiting thinking, 1 seconds left
+01:11:21 | Nietzsche: state updated to waiting left
+01:11:21 | Aristotle: state updated to eating
+01:11:21 | Aristotle: awaiting eating, 1 seconds left
+01:11:21 | Spinoza: state updated to thinking
+01:11:21 | Parmenides: state updated to waiting right
+01:11:21 | Nietzsche: state updated to eating
+01:11:21 | Spinoza: awaiting thinking, 1 seconds left
+01:11:21 | Parmenides: state updated to waiting left
+01:11:21 | Nietzsche: awaiting eating, 1 seconds left
+01:11:22 | Aristotle: state updated to thinking
+01:11:22 | Socrates: state updated to waiting right
+01:11:22 | Parmenides: state updated to eating
+01:11:22 | Aristotle: awaiting thinking, 1 seconds left
+01:11:22 | Socrates: state updated to waiting left
+01:11:22 | Parmenides: awaiting eating, 1 seconds left
+01:11:22 | Nietzsche: state updated to thinking
+01:11:22 | Spinoza: state updated to waiting left
+01:11:22 | Socrates: state updated to eating
+01:11:22 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:22 | Socrates: awaiting eating, 1 seconds left
+01:11:23 | Parmenides: state updated to thinking
+01:11:23 | Spinoza: state updated to waiting right
+01:11:23 | Aristotle: state updated to waiting left
+01:11:23 | Parmenides: awaiting thinking, 1 seconds left
+01:11:23 | Spinoza: state updated to eating
+01:11:23 | Spinoza: awaiting eating, 1 seconds left
+01:11:23 | Socrates: state updated to thinking
+01:11:23 | Nietzsche: state updated to waiting right
+01:11:23 | Aristotle: state updated to waiting right
+01:11:23 | Socrates: awaiting thinking, 1 seconds left
+01:11:23 | Nietzsche: state updated to waiting left
+01:11:23 | Aristotle: state updated to eating
+01:11:23 | Aristotle: awaiting eating, 1 seconds left
+01:11:24 | Spinoza: state updated to thinking
+01:11:24 | Parmenides: state updated to waiting right
+01:11:24 | Nietzsche: state updated to eating
+01:11:24 | Spinoza: awaiting thinking, 1 seconds left
+01:11:24 | Parmenides: state updated to waiting left
+01:11:24 | Nietzsche: awaiting eating, 1 seconds left
+01:11:24 | Aristotle: state updated to thinking
+01:11:24 | Parmenides: state updated to eating
+01:11:24 | Socrates: state updated to waiting right
+01:11:24 | Aristotle: awaiting thinking, 1 seconds left
+01:11:24 | Parmenides: awaiting eating, 1 seconds left
+01:11:24 | Socrates: state updated to waiting left
+01:11:25 | Nietzsche: state updated to thinking
+01:11:25 | Socrates: state updated to eating
+01:11:25 | Spinoza: state updated to waiting left
+01:11:25 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:25 | Socrates: awaiting eating, 1 seconds left
+01:11:25 | Aristotle: state updated to waiting left
+01:11:25 | Parmenides: state updated to thinking
+01:11:25 | Spinoza: state updated to waiting right
+01:11:25 | Parmenides: awaiting thinking, 1 seconds left
+01:11:25 | Spinoza: state updated to eating
+01:11:25 | Spinoza: awaiting eating, 1 seconds left
+01:11:26 | Socrates: state updated to thinking
+01:11:26 | Nietzsche: state updated to waiting right
+01:11:26 | Aristotle: state updated to waiting right
+01:11:26 | Socrates: awaiting thinking, 1 seconds left
+01:11:26 | Nietzsche: state updated to waiting left
+01:11:26 | Aristotle: state updated to eating
+01:11:26 | Aristotle: awaiting eating, 1 seconds left
+01:11:26 | Spinoza: state updated to thinking
+01:11:26 | Parmenides: state updated to waiting right
+01:11:26 | Nietzsche: state updated to eating
+01:11:26 | Spinoza: awaiting thinking, 1 seconds left
+01:11:26 | Parmenides: state updated to waiting left
+01:11:26 | Nietzsche: awaiting eating, 1 seconds left
+01:11:27 | Aristotle: state updated to thinking
+01:11:27 | Socrates: state updated to waiting right
+01:11:27 | Parmenides: state updated to eating
+01:11:27 | Aristotle: awaiting thinking, 1 seconds left
+01:11:27 | Socrates: state updated to waiting left
+01:11:27 | Parmenides: awaiting eating, 1 seconds left
+01:11:27 | Nietzsche: state updated to thinking
+01:11:27 | Spinoza: state updated to waiting left
+01:11:27 | Socrates: state updated to eating
+01:11:27 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:27 | Socrates: awaiting eating, 1 seconds left
+01:11:28 | Aristotle: state updated to waiting left
+01:11:28 | Parmenides: state updated to thinking
+01:11:28 | Spinoza: state updated to waiting right
+01:11:28 | Parmenides: awaiting thinking, 1 seconds left
+01:11:28 | Spinoza: state updated to eating
+01:11:28 | Spinoza: awaiting eating, 1 seconds left
+01:11:28 | Nietzsche: state updated to waiting right
+01:11:28 | Socrates: state updated to thinking
+01:11:28 | Aristotle: state updated to waiting right
+01:11:28 | Nietzsche: state updated to waiting left
+01:11:28 | Socrates: awaiting thinking, 1 seconds left
+01:11:28 | Aristotle: state updated to eating
+01:11:28 | Aristotle: awaiting eating, 1 seconds left
+01:11:29 | Parmenides: state updated to waiting right
+01:11:29 | Spinoza: state updated to thinking
+01:11:29 | Nietzsche: state updated to eating
+01:11:29 | Parmenides: state updated to waiting left
+01:11:29 | Spinoza: awaiting thinking, 1 seconds left
+01:11:29 | Nietzsche: awaiting eating, 1 seconds left
+01:11:29 | Aristotle: state updated to thinking
+01:11:29 | Parmenides: state updated to eating
+01:11:29 | Socrates: state updated to waiting right
+01:11:29 | Aristotle: awaiting thinking, 1 seconds left
+01:11:29 | Parmenides: awaiting eating, 1 seconds left
+01:11:29 | Socrates: state updated to waiting left
+01:11:30 | Spinoza: state updated to waiting left
+01:11:30 | Nietzsche: state updated to thinking
+01:11:30 | Socrates: state updated to eating
+01:11:30 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:30 | Socrates: awaiting eating, 1 seconds left
+01:11:30 | Aristotle: state updated to waiting left
+01:11:30 | Parmenides: state updated to thinking
+01:11:30 | Spinoza: state updated to waiting right
+01:11:30 | Parmenides: awaiting thinking, 1 seconds left
+01:11:30 | Spinoza: state updated to eating
+01:11:30 | Spinoza: awaiting eating, 1 seconds left
+01:11:31 | Nietzsche: state updated to waiting right
+01:11:31 | Socrates: state updated to thinking
+01:11:31 | Aristotle: state updated to waiting right
+01:11:31 | Nietzsche: state updated to waiting left
+01:11:31 | Socrates: awaiting thinking, 1 seconds left
+01:11:31 | Aristotle: state updated to eating
+01:11:31 | Aristotle: awaiting eating, 1 seconds left
+01:11:31 | Spinoza: state updated to thinking
+01:11:31 | Parmenides: state updated to waiting right
+01:11:31 | Nietzsche: state updated to eating
+01:11:31 | Spinoza: awaiting thinking, 1 seconds left
+01:11:31 | Parmenides: state updated to waiting left
+01:11:31 | Nietzsche: awaiting eating, 1 seconds left
+01:11:32 | Aristotle: state updated to thinking
+01:11:32 | Socrates: state updated to waiting right
+01:11:32 | Parmenides: state updated to eating
+01:11:32 | Aristotle: awaiting thinking, 1 seconds left
+01:11:32 | Socrates: state updated to waiting left
+01:11:32 | Parmenides: awaiting eating, 1 seconds left
+01:11:32 | Nietzsche: state updated to thinking
+01:11:32 | Spinoza: state updated to waiting left
+01:11:32 | Socrates: state updated to eating
+01:11:32 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:32 | Socrates: awaiting eating, 1 seconds left
+01:11:33 | Aristotle: state updated to waiting left
+01:11:33 | Parmenides: state updated to thinking
+01:11:33 | Spinoza: state updated to waiting right
+01:11:33 | Parmenides: awaiting thinking, 1 seconds left
+01:11:33 | Spinoza: state updated to eating
+01:11:33 | Spinoza: awaiting eating, 1 seconds left
+01:11:33 | Nietzsche: state updated to waiting right
+01:11:33 | Socrates: state updated to thinking
+01:11:33 | Aristotle: state updated to waiting right
+01:11:33 | Nietzsche: state updated to waiting left
+01:11:33 | Socrates: awaiting thinking, 1 seconds left
+01:11:33 | Aristotle: state updated to eating
+01:11:33 | Aristotle: awaiting eating, 1 seconds left
+01:11:34 | Spinoza: state updated to thinking
+01:11:34 | Parmenides: state updated to waiting right
+01:11:34 | Nietzsche: state updated to eating
+01:11:34 | Spinoza: awaiting thinking, 1 seconds left
+01:11:34 | Parmenides: state updated to waiting left
+01:11:34 | Nietzsche: awaiting eating, 1 seconds left
+01:11:34 | Aristotle: state updated to thinking
+01:11:34 | Socrates: state updated to waiting right
+01:11:34 | Parmenides: state updated to eating
+01:11:34 | Aristotle: awaiting thinking, 1 seconds left
+01:11:34 | Socrates: state updated to waiting left
+01:11:34 | Parmenides: awaiting eating, 1 seconds left
+01:11:35 | Spinoza: state updated to waiting left
+01:11:35 | Nietzsche: state updated to thinking
+01:11:35 | Socrates: state updated to eating
+01:11:35 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:35 | Socrates: awaiting eating, 1 seconds left
+01:11:35 | Aristotle: state updated to waiting left
+01:11:35 | Parmenides: state updated to thinking
+01:11:35 | Spinoza: state updated to waiting right
+01:11:35 | Parmenides: awaiting thinking, 1 seconds left
+01:11:35 | Spinoza: state updated to eating
+01:11:35 | Spinoza: awaiting eating, 1 seconds left
+01:11:36 | Socrates: state updated to thinking
+01:11:36 | Nietzsche: state updated to waiting right
+01:11:36 | Aristotle: state updated to waiting right
+01:11:36 | Socrates: awaiting thinking, 1 seconds left
+01:11:36 | Nietzsche: state updated to waiting left
+01:11:36 | Aristotle: state updated to eating
+01:11:36 | Aristotle: awaiting eating, 1 seconds left
+01:11:36 | Spinoza: state updated to thinking
+01:11:36 | Parmenides: state updated to waiting right
+01:11:36 | Nietzsche: state updated to eating
+01:11:36 | Spinoza: awaiting thinking, 1 seconds left
+01:11:36 | Parmenides: state updated to waiting left
+01:11:36 | Nietzsche: awaiting eating, 1 seconds left
+01:11:37 | Aristotle: state updated to thinking
+01:11:37 | Socrates: state updated to waiting right
+01:11:37 | Parmenides: state updated to eating
+01:11:37 | Aristotle: awaiting thinking, 1 seconds left
+01:11:37 | Socrates: state updated to waiting left
+01:11:37 | Parmenides: awaiting eating, 1 seconds left
+01:11:37 | Nietzsche: state updated to thinking
+01:11:37 | Spinoza: state updated to waiting left
+01:11:37 | Socrates: state updated to eating
+01:11:37 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:37 | Socrates: awaiting eating, 1 seconds left
+01:11:38 | Aristotle: state updated to waiting left
+01:11:38 | Parmenides: state updated to thinking
+01:11:38 | Spinoza: state updated to waiting right
+01:11:38 | Parmenides: awaiting thinking, 1 seconds left
+01:11:38 | Spinoza: state updated to eating
+01:11:38 | Spinoza: awaiting eating, 1 seconds left
+01:11:38 | Socrates: state updated to thinking
+01:11:38 | Nietzsche: state updated to waiting right
+01:11:38 | Aristotle: state updated to waiting right
+01:11:38 | Socrates: awaiting thinking, 1 seconds left
+01:11:38 | Nietzsche: state updated to waiting left
+01:11:38 | Aristotle: state updated to eating
+01:11:38 | Aristotle: awaiting eating, 1 seconds left
+01:11:39 | Spinoza: state updated to thinking
+01:11:39 | Parmenides: state updated to waiting right
+01:11:39 | Nietzsche: state updated to eating
+01:11:39 | Spinoza: awaiting thinking, 1 seconds left
+01:11:39 | Parmenides: state updated to waiting left
+01:11:39 | Nietzsche: awaiting eating, 1 seconds left
+01:11:39 | Aristotle: state updated to thinking
+01:11:39 | Socrates: state updated to waiting right
+01:11:39 | Parmenides: state updated to eating
+01:11:39 | Aristotle: awaiting thinking, 1 seconds left
+01:11:39 | Socrates: state updated to waiting left
+01:11:39 | Parmenides: awaiting eating, 1 seconds left
+01:11:40 | Nietzsche: state updated to thinking
+01:11:40 | Spinoza: state updated to waiting left
+01:11:40 | Socrates: state updated to eating
+01:11:40 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:40 | Socrates: awaiting eating, 1 seconds left
+01:11:40 | Aristotle: state updated to waiting left
+01:11:40 | Parmenides: state updated to thinking
+01:11:40 | Spinoza: state updated to waiting right
+01:11:40 | Parmenides: awaiting thinking, 1 seconds left
+01:11:40 | Spinoza: state updated to eating
+01:11:40 | Spinoza: awaiting eating, 1 seconds left
+01:11:41 | Socrates: state updated to thinking
+01:11:41 | Aristotle: state updated to waiting right
+01:11:41 | Nietzsche: state updated to waiting right
+01:11:41 | Socrates: awaiting thinking, 1 seconds left
+01:11:41 | Nietzsche: state updated to waiting left
+01:11:41 | Nietzsche: state updated to waiting left
+01:11:41 | Aristotle: awaiting eating, 1 seconds left
+01:11:41 | Spinoza: state updated to thinking
+01:11:41 | Parmenides: state updated to waiting right
+01:11:41 | Nietzsche: state updated to eating
+01:11:41 | Spinoza: awaiting thinking, 1 seconds left
+01:11:41 | Parmenides: state updated to waiting left
+01:11:41 | Nietzsche: awaiting eating, 1 seconds left
+01:11:42 | Aristotle: state updated to thinking
+01:11:42 | Socrates: state updated to waiting right
+01:11:42 | Parmenides: state updated to eating
+01:11:42 | Aristotle: awaiting thinking, 1 seconds left
+01:11:42 | Socrates: state updated to waiting left
+01:11:42 | Parmenides: awaiting eating, 1 seconds left
+01:11:42 | Nietzsche: state updated to thinking
+01:11:42 | Spinoza: state updated to waiting left
+01:11:42 | Socrates: state updated to eating
+01:11:42 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:42 | Socrates: awaiting eating, 1 seconds left
+01:11:43 | Aristotle: state updated to waiting left
+01:11:43 | Parmenides: state updated to thinking
+01:11:43 | Spinoza: state updated to waiting right
+01:11:43 | Parmenides: awaiting thinking, 1 seconds left
+01:11:43 | Spinoza: state updated to eating
+01:11:43 | Spinoza: awaiting eating, 1 seconds left
+01:11:43 | Nietzsche: state updated to waiting right
+01:11:43 | Socrates: state updated to thinking
+01:11:43 | Aristotle: state updated to waiting right
+01:11:43 | Nietzsche: state updated to waiting left
+01:11:43 | Socrates: awaiting thinking, 1 seconds left
+01:11:43 | Aristotle: state updated to eating
+01:11:43 | Aristotle: awaiting eating, 1 seconds left
+01:11:44 | Spinoza: state updated to thinking
+01:11:44 | Parmenides: state updated to waiting right
+01:11:44 | Nietzsche: state updated to eating
+01:11:44 | Spinoza: awaiting thinking, 1 seconds left
+01:11:44 | Parmenides: state updated to waiting left
+01:11:44 | Nietzsche: awaiting eating, 1 seconds left
+01:11:44 | Aristotle: state updated to thinking
+01:11:44 | Socrates: state updated to waiting right
+01:11:44 | Parmenides: state updated to eating
+01:11:44 | Aristotle: awaiting thinking, 1 seconds left
+01:11:44 | Socrates: state updated to waiting left
+01:11:44 | Parmenides: awaiting eating, 1 seconds left
+01:11:45 | Nietzsche: state updated to thinking
+01:11:45 | Spinoza: state updated to waiting left
+01:11:45 | Socrates: state updated to eating
+01:11:45 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:45 | Socrates: awaiting eating, 1 seconds left
+01:11:45 | Aristotle: state updated to waiting left
+01:11:45 | Parmenides: state updated to thinking
+01:11:45 | Spinoza: state updated to waiting right
+01:11:45 | Parmenides: awaiting thinking, 1 seconds left
+01:11:45 | Spinoza: state updated to eating
+01:11:45 | Spinoza: awaiting eating, 1 seconds left
+01:11:46 | Nietzsche: state updated to waiting right
+01:11:46 | Socrates: state updated to thinking
+01:11:46 | Aristotle: state updated to waiting right
+01:11:46 | Nietzsche: state updated to waiting left
+01:11:46 | Socrates: awaiting thinking, 1 seconds left
+01:11:46 | Aristotle: state updated to eating
+01:11:46 | Aristotle: awaiting eating, 1 seconds left
+01:11:46 | Spinoza: state updated to thinking
+01:11:46 | Parmenides: state updated to waiting right
+01:11:46 | Nietzsche: state updated to eating
+01:11:46 | Spinoza: awaiting thinking, 1 seconds left
+01:11:46 | Parmenides: state updated to waiting left
+01:11:46 | Nietzsche: awaiting eating, 1 seconds left
+01:11:47 | Aristotle: state updated to thinking
+01:11:47 | Socrates: state updated to waiting right
+01:11:47 | Parmenides: state updated to eating
+01:11:47 | Aristotle: awaiting thinking, 1 seconds left
+01:11:47 | Socrates: state updated to waiting left
+01:11:47 | Parmenides: awaiting eating, 1 seconds left
+01:11:47 | Nietzsche: state updated to thinking
+01:11:47 | Spinoza: state updated to waiting left
+01:11:47 | Socrates: state updated to eating
+01:11:47 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:47 | Socrates: awaiting eating, 1 seconds left
+01:11:48 | Parmenides: state updated to thinking
+01:11:48 | Aristotle: state updated to waiting left
+01:11:48 | Spinoza: state updated to waiting right
+01:11:48 | Parmenides: awaiting thinking, 1 seconds left
+01:11:48 | Spinoza: state updated to eating
+01:11:48 | Spinoza: awaiting eating, 1 seconds left
+01:11:48 | Socrates: state updated to thinking
+01:11:48 | Nietzsche: state updated to waiting right
+01:11:48 | Aristotle: state updated to waiting right
+01:11:48 | Socrates: awaiting thinking, 1 seconds left
+01:11:48 | Nietzsche: state updated to waiting left
+01:11:48 | Aristotle: state updated to eating
+01:11:48 | Aristotle: awaiting eating, 1 seconds left
+01:11:49 | Parmenides: state updated to waiting right
+01:11:49 | Spinoza: state updated to thinking
+01:11:49 | Nietzsche: state updated to eating
+01:11:49 | Parmenides: state updated to waiting left
+01:11:49 | Spinoza: awaiting thinking, 1 seconds left
+01:11:49 | Nietzsche: awaiting eating, 1 seconds left
+01:11:49 | Aristotle: state updated to thinking
+01:11:49 | Parmenides: state updated to eating
+01:11:49 | Socrates: state updated to waiting right
+01:11:49 | Aristotle: awaiting thinking, 1 seconds left
+01:11:49 | Parmenides: awaiting eating, 1 seconds left
+01:11:49 | Socrates: state updated to waiting left
+01:11:50 | Nietzsche: state updated to thinking
+01:11:50 | Socrates: state updated to eating
+01:11:50 | Spinoza: state updated to waiting left
+01:11:50 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:50 | Socrates: awaiting eating, 1 seconds left
+01:11:50 | Aristotle: state updated to waiting left
+01:11:50 | Parmenides: state updated to thinking
+01:11:50 | Spinoza: state updated to waiting right
+01:11:50 | Parmenides: awaiting thinking, 1 seconds left
+01:11:50 | Spinoza: state updated to eating
+01:11:50 | Spinoza: awaiting eating, 1 seconds left
+01:11:51 | Socrates: state updated to thinking
+01:11:51 | Nietzsche: state updated to waiting right
+01:11:51 | Aristotle: state updated to waiting right
+01:11:51 | Socrates: awaiting thinking, 1 seconds left
+01:11:51 | Nietzsche: state updated to waiting left
+01:11:51 | Aristotle: state updated to eating
+01:11:51 | Aristotle: awaiting eating, 1 seconds left
+01:11:51 | Nietzsche: state updated to eating
+01:11:51 | Spinoza: state updated to thinking
+01:11:51 | Parmenides: state updated to waiting right
+01:11:51 | Nietzsche: awaiting eating, 1 seconds left
+01:11:51 | Spinoza: awaiting thinking, 1 seconds left
+01:11:51 | Parmenides: state updated to waiting left
+01:11:52 | Aristotle: state updated to thinking
+01:11:52 | Socrates: state updated to waiting right
+01:11:52 | Parmenides: state updated to eating
+01:11:52 | Aristotle: awaiting thinking, 1 seconds left
+01:11:52 | Socrates: state updated to waiting left
+01:11:52 | Parmenides: awaiting eating, 1 seconds left
+01:11:52 | Spinoza: state updated to waiting left
+01:11:52 | Nietzsche: state updated to thinking
+01:11:52 | Socrates: state updated to eating
+01:11:52 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:52 | Socrates: awaiting eating, 1 seconds left
+01:11:53 | Aristotle: state updated to waiting left
+01:11:53 | Parmenides: state updated to thinking
+01:11:53 | Spinoza: state updated to waiting right
+01:11:53 | Parmenides: awaiting thinking, 1 seconds left
+01:11:53 | Spinoza: state updated to eating
+01:11:53 | Spinoza: awaiting eating, 1 seconds left
+01:11:53 | Socrates: state updated to thinking
+01:11:53 | Nietzsche: state updated to waiting right
+01:11:53 | Aristotle: state updated to waiting right
+01:11:53 | Socrates: awaiting thinking, 1 seconds left
+01:11:53 | Nietzsche: state updated to waiting left
+01:11:53 | Aristotle: state updated to eating
+01:11:53 | Aristotle: awaiting eating, 1 seconds left
+01:11:54 | Spinoza: state updated to thinking
+01:11:54 | Parmenides: state updated to waiting right
+01:11:54 | Nietzsche: state updated to eating
+01:11:54 | Spinoza: awaiting thinking, 1 seconds left
+01:11:54 | Parmenides: state updated to waiting left
+01:11:54 | Nietzsche: awaiting eating, 1 seconds left
+01:11:54 | Aristotle: state updated to thinking
+01:11:54 | Socrates: state updated to waiting right
+01:11:54 | Parmenides: state updated to eating
+01:11:54 | Aristotle: awaiting thinking, 1 seconds left
+01:11:54 | Socrates: state updated to waiting left
+01:11:54 | Parmenides: awaiting eating, 1 seconds left
+01:11:55 | Nietzsche: state updated to thinking
+01:11:55 | Socrates: state updated to eating
+01:11:55 | Spinoza: state updated to waiting left
+01:11:55 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:55 | Socrates: awaiting eating, 1 seconds left
+01:11:55 | Parmenides: state updated to thinking
+01:11:55 | Aristotle: state updated to waiting left
+01:11:55 | Spinoza: state updated to waiting right
+01:11:55 | Parmenides: awaiting thinking, 1 seconds left
+01:11:55 | Spinoza: state updated to eating
+01:11:55 | Spinoza: awaiting eating, 1 seconds left
+01:11:56 | Socrates: state updated to thinking
+01:11:56 | Nietzsche: state updated to waiting right
+01:11:56 | Aristotle: state updated to waiting right
+01:11:56 | Socrates: awaiting thinking, 1 seconds left
+01:11:56 | Nietzsche: state updated to waiting left
+01:11:56 | Aristotle: state updated to eating
+01:11:57 | Aristotle: awaiting eating, 1 seconds left
+01:11:57 | Parmenides: state updated to waiting right
+01:11:57 | Spinoza: state updated to thinking
+01:11:57 | Nietzsche: state updated to eating
+01:11:57 | Parmenides: state updated to waiting left
+01:11:57 | Spinoza: awaiting thinking, 1 seconds left
+01:11:57 | Nietzsche: awaiting eating, 1 seconds left
+01:11:58 | Aristotle: state updated to thinking
+01:11:58 | Socrates: state updated to waiting right
+01:11:58 | Parmenides: state updated to eating
+01:11:58 | Aristotle: awaiting thinking, 1 seconds left
+01:11:58 | Socrates: state updated to waiting left
+01:11:58 | Parmenides: awaiting eating, 1 seconds left
+01:11:58 | Nietzsche: state updated to thinking
+01:11:58 | Spinoza: state updated to waiting left
+01:11:58 | Socrates: state updated to eating
+01:11:58 | Nietzsche: awaiting thinking, 1 seconds left
+01:11:58 | Socrates: awaiting eating, 1 seconds left
+01:11:59 | Aristotle: state updated to waiting left
+01:11:59 | Parmenides: state updated to thinking
+01:11:59 | Spinoza: state updated to waiting right
+01:11:59 | Parmenides: awaiting thinking, 1 seconds left
+01:11:59 | Spinoza: state updated to eating
+01:11:59 | Spinoza: awaiting eating, 1 seconds left
+01:11:59 | Socrates: state updated to thinking
+01:11:59 | Aristotle: state updated to waiting right
+01:11:59 | Nietzsche: state updated to waiting right
+01:11:59 | Socrates: awaiting thinking, 1 seconds left
+01:11:59 | Aristotle: state updated to eating
+01:11:59 | Nietzsche: state updated to waiting left
+01:11:59 | Aristotle: awaiting eating, 1 seconds left
+01:11:59 | Table: timeout reached, exiting...
+01:11:59 | Socrates: setting stop event
+01:12:00 | Spinoza: state updated to thinking
+01:12:00 | Nietzsche: state updated to eating
+01:12:00 | Parmenides: state updated to waiting right
+01:12:00 | Spinoza: awaiting thinking, 1 seconds left
+01:12:00 | Nietzsche: awaiting eating, 1 seconds left
+01:12:00 | Parmenides: state updated to waiting left
+01:12:00 | Aristotle: state updated to thinking
+01:12:00 | Parmenides: state updated to eating
+01:12:00 | Socrates: state updated to waiting right
+01:12:00 | Aristotle: awaiting thinking, 1 seconds left
+01:12:00 | Parmenides: awaiting eating, 1 seconds left
+01:12:00 | Socrates: state updated to waiting left
+01:12:01 | Nietzsche: state updated to thinking
+01:12:01 | Spinoza: state updated to waiting left
+01:12:01 | Socrates: state updated to eating
+01:12:01 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:01 | Socrates: awaiting eating, 1 seconds left
+01:12:01 | Aristotle: state updated to waiting left
+01:12:01 | Parmenides: state updated to thinking
+01:12:01 | Spinoza: state updated to waiting right
+01:12:01 | Parmenides: awaiting thinking, 1 seconds left
+01:12:01 | Spinoza: state updated to eating
+01:12:01 | Spinoza: awaiting eating, 1 seconds left
+01:12:02 | Socrates: process exited correctly
+01:12:02 | Nietzsche: state updated to waiting right
+01:12:02 | Aristotle: state updated to waiting right
+01:12:02 | Nietzsche: state updated to waiting left
+01:12:02 | Aristotle: setting stop event
+01:12:02 | Aristotle: state updated to eating
+01:12:02 | Aristotle: awaiting eating, 1 seconds left
+01:12:02 | Spinoza: state updated to thinking
+01:12:02 | Parmenides: state updated to waiting right
+01:12:02 | Nietzsche: state updated to eating
+01:12:02 | Spinoza: awaiting thinking, 1 seconds left
+01:12:02 | Parmenides: state updated to waiting left
+01:12:02 | Nietzsche: awaiting eating, 1 seconds left
+01:12:03 | Aristotle: process exited correctly
+01:12:03 | Parmenides: state updated to eating
+01:12:03 | Parmenides: setting stop event
+01:12:03 | Parmenides: awaiting eating, 1 seconds left
+01:12:03 | Nietzsche: state updated to thinking
+01:12:03 | Spinoza: state updated to waiting left
+01:12:03 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:04 | Parmenides: process exited correctly
+01:12:04 | Spinoza: state updated to waiting right
+01:12:04 | Spinoza: setting stop event
+01:12:04 | Spinoza: state updated to eating
+01:12:04 | Spinoza: awaiting eating, 1 seconds left
+01:12:04 | Nietzsche: state updated to waiting right
+01:12:04 | Nietzsche: state updated to waiting left
+01:12:05 | Spinoza: process exited correctly
+01:12:05 | Nietzsche: state updated to eating
+01:12:05 | Nietzsche: awaiting eating, 1 seconds left
+01:12:05 | Nietzsche: setting stop event
+01:12:06 | Nietzsche: process exited correctly
+01:12:06 | Table: all processes exited
+01:12:35 | Table: creating processes...
+01:12:35 | Aristotle: starting reflection loop
+01:12:35 | Table: processes created
+01:12:35 | Socrates: starting reflection loop
+01:12:35 | Aristotle: state updated to thinking
+01:12:35 | Parmenides: starting reflection loop
+01:12:35 | Socrates: state updated to thinking
+01:12:35 | Spinoza: starting reflection loop
+01:12:35 | Aristotle: awaiting thinking, 1 seconds left
+01:12:35 | Nietzsche: starting reflection loop
+01:12:35 | Parmenides: state updated to thinking
+01:12:35 | Socrates: awaiting thinking, 1 seconds left
+01:12:35 | Spinoza: state updated to thinking
+01:12:35 | Nietzsche: state updated to thinking
+01:12:35 | Parmenides: awaiting thinking, 1 seconds left
+01:12:35 | Spinoza: awaiting thinking, 1 seconds left
+01:12:35 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:36 | Aristotle: state updated to waiting left
+01:12:36 | Aristotle: state updated to waiting right
+01:12:36 | Aristotle: state updated to eating
+01:12:36 | Aristotle: awaiting eating, 1 seconds left
+01:12:36 | Parmenides: state updated to waiting right
+01:12:36 | Spinoza: state updated to waiting left
+01:12:36 | Nietzsche: state updated to waiting right
+01:12:36 | Parmenides: state updated to waiting left
+01:12:36 | Socrates: state updated to waiting right
+01:12:36 | Nietzsche: state updated to waiting left
+01:12:36 | Nietzsche: state updated to eating
+01:12:36 | Nietzsche: awaiting eating, 1 seconds left
+01:12:37 | Aristotle: state updated to thinking
+01:12:37 | Parmenides: state updated to eating
+01:12:37 | Socrates: state updated to waiting left
+01:12:37 | Aristotle: awaiting thinking, 1 seconds left
+01:12:37 | Parmenides: awaiting eating, 1 seconds left
+01:12:37 | Nietzsche: state updated to thinking
+01:12:37 | Socrates: state updated to eating
+01:12:37 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:37 | Socrates: awaiting eating, 1 seconds left
+01:12:38 | Parmenides: state updated to thinking
+01:12:38 | Aristotle: state updated to waiting left
+01:12:38 | Spinoza: state updated to waiting right
+01:12:38 | Parmenides: awaiting thinking, 1 seconds left
+01:12:38 | Spinoza: state updated to eating
+01:12:38 | Spinoza: awaiting eating, 1 seconds left
+01:12:38 | Socrates: state updated to thinking
+01:12:38 | Nietzsche: state updated to waiting right
+01:12:38 | Aristotle: state updated to waiting right
+01:12:38 | Socrates: awaiting thinking, 1 seconds left
+01:12:38 | Nietzsche: state updated to waiting left
+01:12:38 | Aristotle: state updated to eating
+01:12:38 | Aristotle: awaiting eating, 1 seconds left
+01:12:39 | Spinoza: state updated to thinking
+01:12:39 | Parmenides: state updated to waiting right
+01:12:39 | Nietzsche: state updated to eating
+01:12:39 | Spinoza: awaiting thinking, 1 seconds left
+01:12:39 | Parmenides: state updated to waiting left
+01:12:39 | Nietzsche: awaiting eating, 1 seconds left
+01:12:39 | Aristotle: state updated to thinking
+01:12:39 | Socrates: state updated to waiting right
+01:12:39 | Parmenides: state updated to eating
+01:12:39 | Aristotle: awaiting thinking, 1 seconds left
+01:12:39 | Socrates: state updated to waiting left
+01:12:39 | Parmenides: awaiting eating, 1 seconds left
+01:12:40 | Nietzsche: state updated to thinking
+01:12:40 | Spinoza: state updated to waiting left
+01:12:40 | Socrates: state updated to eating
+01:12:40 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:40 | Socrates: awaiting eating, 1 seconds left
+01:12:40 | Parmenides: state updated to thinking
+01:12:40 | Aristotle: state updated to waiting left
+01:12:40 | Spinoza: state updated to waiting right
+01:12:40 | Parmenides: awaiting thinking, 1 seconds left
+01:12:40 | Spinoza: state updated to eating
+01:12:40 | Spinoza: awaiting eating, 1 seconds left
+01:12:41 | Socrates: state updated to thinking
+01:12:41 | Nietzsche: state updated to waiting right
+01:12:41 | Aristotle: state updated to waiting right
+01:12:41 | Socrates: awaiting thinking, 1 seconds left
+01:12:41 | Nietzsche: state updated to waiting left
+01:12:41 | Aristotle: state updated to eating
+01:12:41 | Aristotle: awaiting eating, 1 seconds left
+01:12:41 | Parmenides: state updated to waiting right
+01:12:41 | Spinoza: state updated to thinking
+01:12:41 | Nietzsche: state updated to eating
+01:12:41 | Parmenides: state updated to waiting left
+01:12:41 | Spinoza: awaiting thinking, 1 seconds left
+01:12:41 | Nietzsche: awaiting eating, 1 seconds left
+01:12:42 | Socrates: state updated to waiting right
+01:12:42 | Aristotle: state updated to thinking
+01:12:42 | Parmenides: state updated to eating
+01:12:42 | Socrates: state updated to waiting left
+01:12:42 | Aristotle: awaiting thinking, 1 seconds left
+01:12:42 | Parmenides: awaiting eating, 1 seconds left
+01:12:42 | Nietzsche: state updated to thinking
+01:12:42 | Spinoza: state updated to waiting left
+01:12:42 | Socrates: state updated to eating
+01:12:42 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:42 | Socrates: awaiting eating, 1 seconds left
+01:12:43 | Parmenides: state updated to thinking
+01:12:43 | Spinoza: state updated to waiting right
+01:12:43 | Aristotle: state updated to waiting left
+01:12:43 | Parmenides: awaiting thinking, 1 seconds left
+01:12:43 | Spinoza: state updated to eating
+01:12:43 | Spinoza: awaiting eating, 1 seconds left
+01:12:43 | Nietzsche: state updated to waiting right
+01:12:43 | Socrates: state updated to thinking
+01:12:43 | Aristotle: state updated to waiting right
+01:12:43 | Nietzsche: state updated to waiting left
+01:12:43 | Socrates: awaiting thinking, 1 seconds left
+01:12:43 | Aristotle: state updated to eating
+01:12:43 | Aristotle: awaiting eating, 1 seconds left
+01:12:44 | Aristotle: awaiting thinking, 1 seconds left
+01:12:44 | Aristotle: awaiting thinking, 1 seconds left
+01:12:44 | Aristotle: awaiting thinking, 1 seconds left
+01:12:44 | Socrates: state updated to waiting left
+01:12:44 | Socrates: state updated to waiting left
+01:12:44 | Socrates: state updated to waiting left
+01:12:44 | Socrates: state updated to waiting left
+01:12:44 | Socrates: state updated to waiting left
+01:12:44 | Socrates: state updated to waiting left
+01:12:44 | Socrates: state updated to waiting left
+01:12:44 | Socrates: state updated to waiting left
+01:12:44 | Socrates: state updated to waiting left
+01:12:45 | Aristotle: state updated to waiting left
+01:12:45 | Spinoza: state updated to waiting left
+01:12:45 | Nietzsche: state updated to thinking
+01:12:45 | Socrates: state updated to eating
+01:12:45 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:45 | Socrates: awaiting eating, 1 seconds left
+01:12:45 | Spinoza: state updated to waiting right
+01:12:45 | Parmenides: state updated to thinking
+01:12:45 | Spinoza: state updated to eating
+01:12:45 | Parmenides: awaiting thinking, 1 seconds left
+01:12:45 | Spinoza: awaiting eating, 1 seconds left
+01:12:46 | Socrates: state updated to thinking
+01:12:46 | Nietzsche: state updated to waiting right
+01:12:46 | Aristotle: state updated to waiting right
+01:12:46 | Socrates: awaiting thinking, 1 seconds left
+01:12:46 | Nietzsche: state updated to waiting left
+01:12:46 | Aristotle: state updated to eating
+01:12:46 | Aristotle: awaiting eating, 1 seconds left
+01:12:46 | Parmenides: state updated to waiting right
+01:12:46 | Spinoza: state updated to thinking
+01:12:46 | Nietzsche: state updated to eating
+01:12:46 | Parmenides: state updated to waiting left
+01:12:46 | Spinoza: awaiting thinking, 1 seconds left
+01:12:46 | Nietzsche: awaiting eating, 1 seconds left
+01:12:47 | Socrates: state updated to waiting right
+01:12:47 | Socrates: state updated to waiting left
+01:12:47 | Aristotle: state updated to thinking
+01:12:47 | Aristotle: awaiting thinking, 1 seconds left
+01:12:47 | Parmenides: state updated to eating
+01:12:47 | Parmenides: awaiting eating, 1 seconds left
+01:12:47 | Spinoza: state updated to waiting left
+01:12:47 | Socrates: state updated to eating
+01:12:47 | Nietzsche: state updated to thinking
+01:12:47 | Socrates: awaiting eating, 1 seconds left
+01:12:47 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:48 | Aristotle: state updated to waiting left
+01:12:48 | Spinoza: state updated to waiting right
+01:12:48 | Parmenides: state updated to thinking
+01:12:48 | Spinoza: awaiting eating, 1 seconds left
+01:12:48 | Spinoza: awaiting eating, 1 seconds left
+01:12:48 | Spinoza: awaiting eating, 1 seconds left
+01:12:48 | Nietzsche: state updated to waiting right
+01:12:48 | Socrates: state updated to thinking
+01:12:48 | Aristotle: state updated to waiting right
+01:12:48 | Nietzsche: state updated to waiting left
+01:12:48 | Socrates: awaiting thinking, 1 seconds left
+01:12:48 | Aristotle: state updated to eating
+01:12:48 | Aristotle: awaiting eating, 1 seconds left
+01:12:49 | Parmenides: state updated to waiting right
+01:12:49 | Spinoza: state updated to thinking
+01:12:49 | Nietzsche: state updated to eating
+01:12:49 | Parmenides: state updated to waiting left
+01:12:49 | Spinoza: awaiting thinking, 1 seconds left
+01:12:49 | Nietzsche: awaiting eating, 1 seconds left
+01:12:49 | Socrates: state updated to waiting right
+01:12:49 | Aristotle: state updated to thinking
+01:12:49 | Parmenides: state updated to eating
+01:12:49 | Socrates: state updated to waiting left
+01:12:49 | Aristotle: awaiting thinking, 1 seconds left
+01:12:49 | Parmenides: awaiting eating, 1 seconds left
+01:12:50 | Nietzsche: state updated to thinking
+01:12:50 | Socrates: state updated to eating
+01:12:50 | Spinoza: state updated to waiting left
+01:12:50 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:50 | Socrates: awaiting eating, 1 seconds left
+01:12:50 | Aristotle: state updated to waiting left
+01:12:50 | Parmenides: state updated to thinking
+01:12:50 | Spinoza: state updated to waiting right
+01:12:50 | Parmenides: awaiting thinking, 1 seconds left
+01:12:50 | Spinoza: state updated to eating
+01:12:50 | Spinoza: awaiting eating, 1 seconds left
+01:12:51 | Nietzsche: state updated to waiting right
+01:12:51 | Aristotle: state updated to waiting right
+01:12:51 | Socrates: state updated to thinking
+01:12:51 | Nietzsche: state updated to waiting left
+01:12:51 | Aristotle: state updated to eating
+01:12:51 | Socrates: awaiting thinking, 1 seconds left
+01:12:51 | Aristotle: awaiting eating, 1 seconds left
+01:12:51 | Parmenides: state updated to waiting right
+01:12:51 | Spinoza: state updated to thinking
+01:12:51 | Nietzsche: state updated to eating
+01:12:51 | Parmenides: state updated to waiting left
+01:12:51 | Spinoza: awaiting thinking, 1 seconds left
+01:12:51 | Nietzsche: awaiting eating, 1 seconds left
+01:12:52 | Aristotle: state updated to thinking
+01:12:52 | Socrates: state updated to waiting right
+01:12:52 | Parmenides: state updated to eating
+01:12:52 | Aristotle: awaiting thinking, 1 seconds left
+01:12:52 | Socrates: state updated to waiting left
+01:12:52 | Parmenides: awaiting eating, 1 seconds left
+01:12:52 | Nietzsche: state updated to thinking
+01:12:52 | Spinoza: state updated to waiting left
+01:12:52 | Socrates: state updated to eating
+01:12:52 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:52 | Socrates: awaiting eating, 1 seconds left
+01:12:53 | Parmenides: state updated to thinking
+01:12:53 | Spinoza: state updated to waiting right
+01:12:53 | Aristotle: state updated to waiting left
+01:12:53 | Parmenides: awaiting thinking, 1 seconds left
+01:12:53 | Spinoza: state updated to eating
+01:12:53 | Spinoza: awaiting eating, 1 seconds left
+01:12:53 | Nietzsche: state updated to waiting right
+01:12:53 | Aristotle: state updated to waiting right
+01:12:53 | Socrates: state updated to thinking
+01:12:53 | Nietzsche: state updated to waiting left
+01:12:53 | Aristotle: state updated to eating
+01:12:53 | Socrates: awaiting thinking, 1 seconds left
+01:12:53 | Aristotle: awaiting eating, 1 seconds left
+01:12:54 | Spinoza: state updated to thinking
+01:12:54 | Parmenides: state updated to waiting right
+01:12:54 | Nietzsche: state updated to eating
+01:12:54 | Spinoza: awaiting thinking, 1 seconds left
+01:12:54 | Parmenides: state updated to waiting left
+01:12:54 | Nietzsche: awaiting eating, 1 seconds left
+01:12:54 | Aristotle: state updated to thinking
+01:12:54 | Parmenides: state updated to eating
+01:12:54 | Socrates: state updated to waiting right
+01:12:54 | Aristotle: awaiting thinking, 1 seconds left
+01:12:54 | Socrates: state updated to waiting left
+01:12:54 | Socrates: state updated to waiting left
+01:12:55 | Nietzsche: state updated to thinking
+01:12:55 | Spinoza: state updated to waiting left
+01:12:55 | Socrates: state updated to eating
+01:12:55 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:55 | Socrates: awaiting eating, 1 seconds left
+01:12:55 | Aristotle: state updated to waiting left
+01:12:55 | Parmenides: state updated to thinking
+01:12:55 | Spinoza: state updated to waiting right
+01:12:55 | Parmenides: awaiting thinking, 1 seconds left
+01:12:55 | Spinoza: state updated to eating
+01:12:55 | Spinoza: awaiting eating, 1 seconds left
+01:12:56 | Socrates: state updated to thinking
+01:12:56 | Nietzsche: state updated to waiting right
+01:12:56 | Aristotle: state updated to waiting right
+01:12:56 | Socrates: awaiting thinking, 1 seconds left
+01:12:56 | Nietzsche: state updated to waiting left
+01:12:56 | Aristotle: state updated to eating
+01:12:56 | Aristotle: awaiting eating, 1 seconds left
+01:12:56 | Parmenides: state updated to waiting right
+01:12:56 | Spinoza: state updated to thinking
+01:12:56 | Nietzsche: state updated to eating
+01:12:56 | Parmenides: state updated to waiting left
+01:12:56 | Spinoza: awaiting thinking, 1 seconds left
+01:12:56 | Nietzsche: awaiting eating, 1 seconds left
+01:12:57 | Aristotle: state updated to thinking
+01:12:57 | Socrates: state updated to waiting right
+01:12:57 | Parmenides: state updated to eating
+01:12:57 | Aristotle: awaiting thinking, 1 seconds left
+01:12:57 | Socrates: state updated to waiting left
+01:12:57 | Parmenides: awaiting eating, 1 seconds left
+01:12:57 | Spinoza: state updated to waiting left
+01:12:57 | Nietzsche: state updated to thinking
+01:12:57 | Socrates: state updated to eating
+01:12:57 | Nietzsche: awaiting thinking, 1 seconds left
+01:12:57 | Socrates: awaiting eating, 1 seconds left
+01:12:58 | Parmenides: state updated to thinking
+01:12:58 | Aristotle: state updated to waiting left
+01:12:58 | Spinoza: state updated to waiting right
+01:12:58 | Parmenides: awaiting thinking, 1 seconds left
+01:12:58 | Spinoza: state updated to eating
+01:12:58 | Spinoza: awaiting eating, 1 seconds left
+01:12:58 | Nietzsche: state updated to waiting right
+01:12:58 | Aristotle: state updated to waiting right
+01:12:58 | Socrates: state updated to thinking
+01:12:58 | Nietzsche: state updated to waiting left
+01:12:58 | Aristotle: state updated to eating
+01:12:58 | Socrates: awaiting thinking, 1 seconds left
+01:12:58 | Aristotle: awaiting eating, 1 seconds left
+01:12:59 | Nietzsche: state updated to eating
+01:12:59 | Nietzsche: awaiting eating, 1 seconds left
+01:12:59 | Parmenides: state updated to waiting right
+01:12:59 | Spinoza: state updated to thinking
+01:12:59 | Parmenides: state updated to waiting left
+01:12:59 | Spinoza: awaiting thinking, 1 seconds left
+01:12:59 | Socrates: state updated to waiting right
+01:12:59 | Aristotle: state updated to thinking
+01:12:59 | Parmenides: state updated to eating
+01:12:59 | Socrates: state updated to waiting left
+01:12:59 | Aristotle: awaiting thinking, 1 seconds left
+01:12:59 | Parmenides: awaiting eating, 1 seconds left
+01:13:00 | Spinoza: state updated to waiting left
+01:13:00 | Nietzsche: state updated to thinking
+01:13:00 | Socrates: state updated to eating
+01:13:00 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:00 | Socrates: awaiting eating, 1 seconds left
+01:13:00 | Aristotle: state updated to waiting left
+01:13:00 | Parmenides: state updated to thinking
+01:13:00 | Spinoza: state updated to waiting right
+01:13:00 | Parmenides: awaiting thinking, 1 seconds left
+01:13:00 | Spinoza: state updated to eating
+01:13:00 | Spinoza: awaiting eating, 1 seconds left
+01:13:01 | Socrates: state updated to thinking
+01:13:01 | Aristotle: state updated to waiting right
+01:13:01 | Nietzsche: state updated to waiting right
+01:13:01 | Socrates: awaiting thinking, 1 seconds left
+01:13:01 | Aristotle: state updated to eating
+01:13:01 | Nietzsche: state updated to waiting left
+01:13:01 | Aristotle: awaiting eating, 1 seconds left
+01:13:01 | Spinoza: state updated to thinking
+01:13:01 | Nietzsche: state updated to eating
+01:13:01 | Nietzsche: state updated to eating
+01:13:01 | Spinoza: awaiting thinking, 1 seconds left
+01:13:01 | Parmenides: state updated to waiting left
+01:13:01 | Nietzsche: awaiting eating, 1 seconds left
+01:13:02 | Socrates: state updated to waiting right
+01:13:02 | Aristotle: state updated to thinking
+01:13:02 | Parmenides: state updated to eating
+01:13:02 | Socrates: state updated to waiting left
+01:13:02 | Aristotle: awaiting thinking, 1 seconds left
+01:13:02 | Parmenides: awaiting eating, 1 seconds left
+01:13:02 | Nietzsche: state updated to thinking
+01:13:02 | Spinoza: state updated to waiting left
+01:13:02 | Socrates: state updated to eating
+01:13:02 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:02 | Socrates: awaiting eating, 1 seconds left
+01:13:03 | Parmenides: state updated to thinking
+01:13:03 | Aristotle: state updated to waiting left
+01:13:03 | Spinoza: state updated to waiting right
+01:13:03 | Parmenides: awaiting thinking, 1 seconds left
+01:13:03 | Spinoza: state updated to eating
+01:13:03 | Spinoza: awaiting eating, 1 seconds left
+01:13:03 | Socrates: state updated to thinking
+01:13:03 | Aristotle: state updated to waiting right
+01:13:03 | Nietzsche: state updated to waiting right
+01:13:03 | Socrates: awaiting thinking, 1 seconds left
+01:13:03 | Aristotle: state updated to eating
+01:13:03 | Nietzsche: state updated to waiting left
+01:13:03 | Aristotle: awaiting eating, 1 seconds left
+01:13:04 | Spinoza: state updated to thinking
+01:13:04 | Parmenides: state updated to waiting right
+01:13:04 | Nietzsche: state updated to eating
+01:13:04 | Spinoza: awaiting thinking, 1 seconds left
+01:13:04 | Parmenides: state updated to waiting left
+01:13:04 | Nietzsche: awaiting eating, 1 seconds left
+01:13:04 | Aristotle: state updated to thinking
+01:13:04 | Socrates: state updated to waiting right
+01:13:04 | Parmenides: state updated to eating
+01:13:04 | Aristotle: awaiting thinking, 1 seconds left
+01:13:04 | Socrates: state updated to waiting left
+01:13:04 | Parmenides: awaiting eating, 1 seconds left
+01:13:05 | Nietzsche: state updated to thinking
+01:13:05 | Spinoza: state updated to waiting left
+01:13:05 | Socrates: state updated to eating
+01:13:05 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:05 | Socrates: awaiting eating, 1 seconds left
+01:13:05 | Aristotle: state updated to waiting left
+01:13:05 | Parmenides: state updated to thinking
+01:13:05 | Spinoza: state updated to waiting right
+01:13:05 | Parmenides: awaiting thinking, 1 seconds left
+01:13:05 | Spinoza: state updated to eating
+01:13:05 | Spinoza: awaiting eating, 1 seconds left
+01:13:06 | Nietzsche: state updated to waiting right
+01:13:06 | Socrates: state updated to thinking
+01:13:06 | Aristotle: state updated to waiting right
+01:13:06 | Nietzsche: state updated to waiting left
+01:13:06 | Socrates: awaiting thinking, 1 seconds left
+01:13:06 | Aristotle: state updated to eating
+01:13:06 | Aristotle: awaiting eating, 1 seconds left
+01:13:06 | Spinoza: state updated to thinking
+01:13:06 | Nietzsche: state updated to eating
+01:13:06 | Parmenides: state updated to waiting right
+01:13:06 | Spinoza: awaiting thinking, 1 seconds left
+01:13:06 | Nietzsche: awaiting eating, 1 seconds left
+01:13:06 | Parmenides: state updated to waiting left
+01:13:07 | Socrates: state updated to waiting right
+01:13:07 | Aristotle: state updated to thinking
+01:13:07 | Parmenides: state updated to eating
+01:13:07 | Socrates: state updated to waiting left
+01:13:07 | Aristotle: awaiting thinking, 1 seconds left
+01:13:07 | Parmenides: awaiting eating, 1 seconds left
+01:13:07 | Nietzsche: state updated to thinking
+01:13:07 | Spinoza: state updated to waiting left
+01:13:07 | Socrates: state updated to eating
+01:13:07 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:07 | Socrates: awaiting eating, 1 seconds left
+01:13:08 | Parmenides: state updated to thinking
+01:13:08 | Aristotle: state updated to waiting left
+01:13:08 | Spinoza: state updated to waiting right
+01:13:08 | Parmenides: awaiting thinking, 1 seconds left
+01:13:08 | Spinoza: state updated to eating
+01:13:08 | Spinoza: awaiting eating, 1 seconds left
+01:13:08 | Nietzsche: state updated to waiting right
+01:13:08 | Socrates: state updated to thinking
+01:13:08 | Aristotle: state updated to waiting right
+01:13:08 | Nietzsche: state updated to waiting left
+01:13:08 | Socrates: awaiting thinking, 1 seconds left
+01:13:08 | Aristotle: state updated to eating
+01:13:08 | Aristotle: awaiting eating, 1 seconds left
+01:13:09 | Nietzsche: state updated to eating
+01:13:09 | Spinoza: state updated to thinking
+01:13:09 | Parmenides: state updated to waiting right
+01:13:09 | Nietzsche: awaiting eating, 1 seconds left
+01:13:09 | Spinoza: awaiting thinking, 1 seconds left
+01:13:09 | Parmenides: state updated to waiting left
+01:13:09 | Socrates: state updated to waiting right
+01:13:09 | Aristotle: state updated to thinking
+01:13:09 | Parmenides: state updated to eating
+01:13:09 | Socrates: state updated to waiting left
+01:13:09 | Aristotle: awaiting thinking, 1 seconds left
+01:13:09 | Parmenides: awaiting eating, 1 seconds left
+01:13:10 | Nietzsche: state updated to thinking
+01:13:10 | Socrates: state updated to eating
+01:13:10 | Spinoza: state updated to waiting left
+01:13:10 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:10 | Socrates: awaiting eating, 1 seconds left
+01:13:10 | Parmenides: state updated to thinking
+01:13:10 | Spinoza: state updated to waiting right
+01:13:10 | Aristotle: state updated to waiting left
+01:13:10 | Parmenides: awaiting thinking, 1 seconds left
+01:13:10 | Spinoza: state updated to eating
+01:13:10 | Spinoza: awaiting eating, 1 seconds left
+01:13:11 | Aristotle: state updated to waiting right
+01:13:11 | Nietzsche: state updated to waiting right
+01:13:11 | Socrates: state updated to thinking
+01:13:11 | Aristotle: state updated to eating
+01:13:11 | Nietzsche: state updated to waiting left
+01:13:11 | Socrates: awaiting thinking, 1 seconds left
+01:13:11 | Aristotle: awaiting eating, 1 seconds left
+01:13:11 | Spinoza: state updated to thinking
+01:13:11 | Nietzsche: state updated to eating
+01:13:11 | Parmenides: state updated to waiting right
+01:13:11 | Spinoza: awaiting thinking, 1 seconds left
+01:13:11 | Nietzsche: awaiting eating, 1 seconds left
+01:13:11 | Parmenides: state updated to waiting left
+01:13:12 | Socrates: state updated to waiting right
+01:13:12 | Aristotle: state updated to thinking
+01:13:12 | Parmenides: state updated to eating
+01:13:12 | Socrates: state updated to waiting left
+01:13:12 | Aristotle: awaiting thinking, 1 seconds left
+01:13:12 | Parmenides: awaiting eating, 1 seconds left
+01:13:12 | Nietzsche: state updated to thinking
+01:13:12 | Spinoza: state updated to waiting left
+01:13:12 | Socrates: state updated to eating
+01:13:12 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:12 | Socrates: awaiting eating, 1 seconds left
+01:13:13 | Parmenides: state updated to thinking
+01:13:13 | Aristotle: state updated to waiting left
+01:13:13 | Spinoza: state updated to waiting right
+01:13:13 | Parmenides: awaiting thinking, 1 seconds left
+01:13:13 | Spinoza: state updated to eating
+01:13:13 | Spinoza: awaiting eating, 1 seconds left
+01:13:13 | Aristotle: state updated to waiting right
+01:13:13 | Socrates: state updated to thinking
+01:13:13 | Nietzsche: state updated to waiting right
+01:13:13 | Aristotle: state updated to eating
+01:13:13 | Socrates: awaiting thinking, 1 seconds left
+01:13:13 | Nietzsche: state updated to waiting left
+01:13:13 | Aristotle: awaiting eating, 1 seconds left
+01:13:14 | Spinoza: state updated to thinking
+01:13:14 | Parmenides: state updated to waiting right
+01:13:14 | Nietzsche: state updated to eating
+01:13:14 | Spinoza: awaiting thinking, 1 seconds left
+01:13:14 | Parmenides: state updated to waiting left
+01:13:14 | Nietzsche: awaiting eating, 1 seconds left
+01:13:14 | Socrates: state updated to waiting right
+01:13:14 | Aristotle: state updated to thinking
+01:13:14 | Parmenides: state updated to eating
+01:13:14 | Socrates: state updated to waiting left
+01:13:14 | Aristotle: awaiting thinking, 1 seconds left
+01:13:15 | Nietzsche: state updated to thinking
+01:13:15 | Spinoza: state updated to waiting left
+01:13:15 | Socrates: state updated to eating
+01:13:15 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:15 | Socrates: awaiting eating, 1 seconds left
+01:13:15 | Aristotle: state updated to waiting left
+01:13:15 | Parmenides: state updated to thinking
+01:13:15 | Spinoza: state updated to waiting right
+01:13:15 | Parmenides: awaiting thinking, 1 seconds left
+01:13:15 | Spinoza: state updated to eating
+01:13:15 | Spinoza: awaiting eating, 1 seconds left
+01:13:16 | Socrates: state updated to thinking
+01:13:16 | Nietzsche: state updated to waiting right
+01:13:16 | Aristotle: state updated to waiting right
+01:13:16 | Socrates: awaiting thinking, 1 seconds left
+01:13:16 | Nietzsche: state updated to waiting left
+01:13:16 | Aristotle: state updated to eating
+01:13:16 | Aristotle: awaiting eating, 1 seconds left
+01:13:16 | Parmenides: state updated to waiting right
+01:13:16 | Spinoza: state updated to thinking
+01:13:16 | Nietzsche: state updated to eating
+01:13:16 | Parmenides: state updated to waiting left
+01:13:16 | Spinoza: awaiting thinking, 1 seconds left
+01:13:16 | Nietzsche: awaiting eating, 1 seconds left
+01:13:17 | Aristotle: state updated to thinking
+01:13:17 | Socrates: state updated to waiting right
+01:13:17 | Parmenides: state updated to eating
+01:13:17 | Aristotle: awaiting thinking, 1 seconds left
+01:13:17 | Socrates: state updated to waiting left
+01:13:17 | Parmenides: awaiting eating, 1 seconds left
+01:13:17 | Nietzsche: state updated to thinking
+01:13:17 | Spinoza: state updated to waiting left
+01:13:17 | Socrates: state updated to eating
+01:13:17 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:17 | Socrates: awaiting eating, 1 seconds left
+01:13:18 | Parmenides: state updated to thinking
+01:13:18 | Aristotle: state updated to waiting left
+01:13:18 | Spinoza: state updated to waiting right
+01:13:18 | Parmenides: awaiting thinking, 1 seconds left
+01:13:18 | Spinoza: state updated to eating
+01:13:18 | Spinoza: awaiting eating, 1 seconds left
+01:13:18 | Nietzsche: state updated to waiting right
+01:13:18 | Socrates: state updated to thinking
+01:13:18 | Aristotle: state updated to waiting right
+01:13:18 | Nietzsche: state updated to waiting left
+01:13:18 | Socrates: awaiting thinking, 1 seconds left
+01:13:18 | Aristotle: state updated to eating
+01:13:18 | Aristotle: awaiting eating, 1 seconds left
+01:13:19 | Spinoza: state updated to thinking
+01:13:19 | Nietzsche: state updated to eating
+01:13:19 | Parmenides: state updated to waiting right
+01:13:19 | Spinoza: awaiting thinking, 1 seconds left
+01:13:19 | Nietzsche: awaiting eating, 1 seconds left
+01:13:19 | Parmenides: state updated to waiting left
+01:13:19 | Socrates: state updated to waiting right
+01:13:19 | Parmenides: state updated to eating
+01:13:19 | Aristotle: state updated to thinking
+01:13:19 | Socrates: state updated to waiting left
+01:13:19 | Parmenides: awaiting eating, 1 seconds left
+01:13:19 | Aristotle: awaiting thinking, 1 seconds left
+01:13:20 | Nietzsche: state updated to thinking
+01:13:20 | Socrates: state updated to eating
+01:13:20 | Spinoza: state updated to waiting left
+01:13:20 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:20 | Socrates: awaiting eating, 1 seconds left
+01:13:20 | Spinoza: state updated to waiting right
+01:13:20 | Aristotle: state updated to waiting left
+01:13:20 | Parmenides: state updated to thinking
+01:13:20 | Spinoza: state updated to eating
+01:13:20 | Parmenides: awaiting thinking, 1 seconds left
+01:13:20 | Spinoza: awaiting eating, 1 seconds left
+01:13:21 | Socrates: state updated to thinking
+01:13:21 | Nietzsche: state updated to waiting right
+01:13:21 | Aristotle: state updated to waiting right
+01:13:21 | Socrates: awaiting thinking, 1 seconds left
+01:13:21 | Nietzsche: state updated to waiting left
+01:13:21 | Aristotle: state updated to eating
+01:13:21 | Aristotle: awaiting eating, 1 seconds left
+01:13:21 | Parmenides: state updated to waiting right
+01:13:21 | Spinoza: state updated to thinking
+01:13:21 | Nietzsche: state updated to eating
+01:13:21 | Parmenides: state updated to waiting left
+01:13:21 | Spinoza: awaiting thinking, 1 seconds left
+01:13:21 | Nietzsche: awaiting eating, 1 seconds left
+01:13:22 | Aristotle: state updated to thinking
+01:13:22 | Socrates: state updated to waiting right
+01:13:22 | Parmenides: state updated to eating
+01:13:22 | Aristotle: awaiting thinking, 1 seconds left
+01:13:22 | Socrates: state updated to waiting left
+01:13:22 | Parmenides: awaiting eating, 1 seconds left
+01:13:22 | Spinoza: state updated to waiting left
+01:13:22 | Socrates: state updated to eating
+01:13:22 | Nietzsche: state updated to thinking
+01:13:22 | Socrates: awaiting eating, 1 seconds left
+01:13:22 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:23 | Parmenides: state updated to thinking
+01:13:23 | Aristotle: state updated to waiting left
+01:13:23 | Spinoza: state updated to waiting right
+01:13:23 | Parmenides: awaiting thinking, 1 seconds left
+01:13:23 | Spinoza: state updated to eating
+01:13:23 | Spinoza: awaiting eating, 1 seconds left
+01:13:23 | Nietzsche: state updated to waiting right
+01:13:23 | Socrates: state updated to thinking
+01:13:23 | Aristotle: state updated to waiting right
+01:13:23 | Nietzsche: state updated to waiting left
+01:13:23 | Socrates: awaiting thinking, 1 seconds left
+01:13:23 | Aristotle: state updated to eating
+01:13:23 | Aristotle: awaiting eating, 1 seconds left
+01:13:24 | Nietzsche: awaiting eating, 1 seconds left
+01:13:24 | Spinoza: state updated to thinking
+01:13:24 | Spinoza: state updated to thinking
+01:13:24 | Parmenides: state updated to waiting right
+01:13:24 | Spinoza: awaiting thinking, 1 seconds left
+01:13:24 | Parmenides: state updated to waiting left
+01:13:24 | Socrates: state updated to waiting right
+01:13:24 | Socrates: state updated to waiting left
+01:13:24 | Aristotle: state updated to thinking
+01:13:24 | Parmenides: state updated to eating
+01:13:24 | Aristotle: awaiting thinking, 1 seconds left
+01:13:24 | Parmenides: awaiting eating, 1 seconds left
+01:13:25 | Nietzsche: state updated to thinking
+01:13:25 | Socrates: state updated to eating
+01:13:25 | Spinoza: state updated to waiting left
+01:13:25 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:25 | Socrates: awaiting eating, 1 seconds left
+01:13:25 | Aristotle: state updated to waiting left
+01:13:25 | Parmenides: state updated to thinking
+01:13:25 | Spinoza: state updated to waiting right
+01:13:25 | Parmenides: awaiting thinking, 1 seconds left
+01:13:25 | Spinoza: state updated to eating
+01:13:25 | Spinoza: awaiting eating, 1 seconds left
+01:13:26 | Table: timeout reached, exiting...
+01:13:26 | Socrates: setting stop event
+01:13:26 | Socrates: process exited correctly
+01:13:26 | Nietzsche: state updated to waiting right
+01:13:26 | Aristotle: state updated to waiting right
+01:13:26 | Nietzsche: state updated to waiting left
+01:13:26 | Aristotle: setting stop event
+01:13:26 | Aristotle: state updated to eating
+01:13:26 | Aristotle: awaiting eating, 1 seconds left
+01:13:26 | Parmenides: state updated to waiting right
+01:13:26 | Spinoza: state updated to thinking
+01:13:26 | Nietzsche: state updated to eating
+01:13:26 | Parmenides: state updated to waiting left
+01:13:26 | Spinoza: awaiting thinking, 1 seconds left
+01:13:26 | Nietzsche: awaiting eating, 1 seconds left
+01:13:27 | Aristotle: process exited correctly
+01:13:27 | Parmenides: state updated to eating
+01:13:27 | Parmenides: awaiting eating, 1 seconds left
+01:13:27 | Parmenides: setting stop event
+01:13:27 | Nietzsche: state updated to thinking
+01:13:27 | Spinoza: state updated to waiting left
+01:13:27 | Nietzsche: awaiting thinking, 1 seconds left
+01:13:28 | Parmenides: process exited correctly
+01:13:28 | Spinoza: state updated to waiting right
+01:13:28 | Nietzsche: state updated to waiting right
+01:13:28 | Spinoza: state updated to eating
+01:13:28 | Spinoza: setting stop event
+01:13:28 | Nietzsche: state updated to waiting left
+01:13:28 | Spinoza: awaiting eating, 1 seconds left
+01:13:29 | Spinoza: process exited correctly
+01:13:29 | Nietzsche: state updated to eating
+01:13:29 | Nietzsche: awaiting eating, 1 seconds left
+01:13:29 | Nietzsche: setting stop event
+01:13:30 | Nietzsche: process exited correctly
+01:13:30 | Table: all processes exited
+01:20:19 | Table: creating processes...
+01:20:19 | Socrates: starting reflection loop
+01:20:19 | Socrates: state updated to thinking
+01:20:19 | Socrates: awaiting thinking, 1 seconds left
+01:20:19 | Spinoza: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:19 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:20 | Parmenides: state updated to waiting right
+01:20:20 | Aristotle: state updated to waiting right
+01:20:20 | Aristotle: state updated to eating
+01:20:20 | Aristotle: awaiting eating, 1 seconds left
+01:20:20 | Aristotle: awaiting eating, 1 seconds left
+01:20:20 | Aristotle: awaiting eating, 1 seconds left
+01:20:20 | Aristotle: awaiting eating, 1 seconds left
+01:20:20 | Aristotle: awaiting eating, 1 seconds left
+01:20:20 | Aristotle: awaiting eating, 1 seconds left
+01:20:20 | Aristotle: awaiting eating, 1 seconds left
+01:20:20 | Aristotle: awaiting eating, 1 seconds left
+01:20:20 | Aristotle: awaiting eating, 1 seconds left
+01:20:21 | Nietzsche: state updated to eating
+01:20:21 | Nietzsche: awaiting eating, 1 seconds left
+01:20:21 | Parmenides: awaiting eating, 1 seconds left
+01:20:21 | Parmenides: awaiting eating, 1 seconds left
+01:20:21 | Parmenides: awaiting eating, 1 seconds left
+01:20:21 | Parmenides: awaiting eating, 1 seconds left
+01:20:21 | Parmenides: awaiting eating, 1 seconds left
+01:20:21 | Parmenides: awaiting eating, 1 seconds left
+01:20:21 | Parmenides: awaiting eating, 1 seconds left
+01:20:21 | Parmenides: awaiting eating, 1 seconds left
+01:20:22 | Socrates: state updated to eating
+01:20:22 | Socrates: awaiting eating, 1 seconds left
+01:20:22 | Socrates: awaiting eating, 1 seconds left
+01:20:22 | Socrates: awaiting eating, 1 seconds left
+01:20:22 | Socrates: awaiting eating, 1 seconds left
+01:20:22 | Socrates: awaiting eating, 1 seconds left
+01:20:22 | Parmenides: state updated to thinking
+01:20:22 | Parmenides: awaiting thinking, 1 seconds left
+01:20:22 | Spinoza: state updated to eating
+01:20:22 | Spinoza: awaiting eating, 1 seconds left
+01:20:22 | Spinoza: awaiting eating, 1 seconds left
+01:20:23 | Aristotle: state updated to waiting right
+01:20:23 | Aristotle: state updated to eating
+01:20:23 | Aristotle: awaiting eating, 1 seconds left
+01:20:23 | Aristotle: awaiting eating, 1 seconds left
+01:20:23 | Aristotle: awaiting eating, 1 seconds left
+01:20:23 | Aristotle: awaiting eating, 1 seconds left
+01:20:23 | Aristotle: awaiting eating, 1 seconds left
+01:20:23 | Spinoza: state updated to thinking
+01:20:23 | Spinoza: awaiting thinking, 1 seconds left
+01:20:23 | Spinoza: awaiting thinking, 1 seconds left
+01:20:23 | Spinoza: awaiting thinking, 1 seconds left
+01:20:23 | Spinoza: awaiting thinking, 1 seconds left
+01:20:23 | Spinoza: awaiting thinking, 1 seconds left
+01:20:24 | Socrates: state updated to waiting right
+01:20:24 | Socrates: state updated to waiting left
+01:20:24 | Socrates: state updated to waiting left
+01:20:24 | Socrates: state updated to waiting left
+01:20:24 | Socrates: state updated to waiting left
+01:20:24 | Socrates: state updated to waiting left
+01:20:24 | Socrates: state updated to eating
+01:20:24 | Socrates: awaiting eating, 1 seconds left
+01:20:24 | Socrates: awaiting eating, 1 seconds left
+01:20:24 | Socrates: awaiting eating, 1 seconds left
+01:20:24 | Socrates: awaiting eating, 1 seconds left
+01:20:25 | Parmenides: state updated to thinking
+01:20:25 | Parmenides: awaiting thinking, 1 seconds left
+01:20:25 | Spinoza: state updated to eating
+01:20:25 | Spinoza: awaiting eating, 1 seconds left
+01:20:25 | Spinoza: awaiting eating, 1 seconds left
+01:20:25 | Socrates: state updated to thinking
+01:20:25 | Socrates: awaiting thinking, 1 seconds left
+01:20:25 | Nietzsche: state updated to waiting left
+01:20:25 | Aristotle: awaiting eating, 1 seconds left
+01:20:25 | Aristotle: awaiting eating, 1 seconds left
+01:20:25 | Aristotle: awaiting eating, 1 seconds left
+01:20:25 | Aristotle: awaiting eating, 1 seconds left
+01:20:25 | Aristotle: awaiting eating, 1 seconds left
+01:20:26 | Nietzsche: state updated to eating
+01:20:26 | Nietzsche: awaiting eating, 1 seconds left
+01:20:26 | Nietzsche: awaiting eating, 1 seconds left
+01:20:26 | Nietzsche: awaiting eating, 1 seconds left
+01:20:26 | Nietzsche: awaiting eating, 1 seconds left
+01:20:26 | Nietzsche: awaiting eating, 1 seconds left
+01:20:26 | Socrates: state updated to waiting right
+01:20:26 | Socrates: state updated to waiting left
+01:20:26 | Socrates: state updated to waiting left
+01:20:26 | Socrates: state updated to waiting left
+01:20:26 | Socrates: state updated to waiting left
+01:20:26 | Socrates: state updated to waiting left
+01:20:27 | Spinoza: state updated to waiting left
+01:20:27 | Socrates: state updated to eating
+01:20:27 | Socrates: awaiting eating, 1 seconds left
+01:20:27 | Socrates: awaiting eating, 1 seconds left
+01:20:27 | Socrates: awaiting eating, 1 seconds left
+01:20:27 | Spinoza: state updated to waiting right
+01:20:27 | Spinoza: state updated to eating
+01:20:27 | Spinoza: awaiting eating, 1 seconds left
+01:20:27 | Spinoza: awaiting eating, 1 seconds left
+01:20:27 | Spinoza: awaiting eating, 1 seconds left
+01:20:27 | Spinoza: awaiting eating, 1 seconds left
+01:20:28 | Nietzsche: state updated to waiting right
+01:20:28 | Nietzsche: state updated to waiting left
+01:20:28 | Socrates: awaiting thinking, 1 seconds left
+01:20:28 | Aristotle: state updated to eating
+01:20:28 | Aristotle: awaiting eating, 1 seconds left
+01:20:28 | Aristotle: awaiting eating, 1 seconds left
+01:20:28 | Aristotle: awaiting eating, 1 seconds left
+01:20:28 | Parmenides: state updated to waiting right
+01:20:28 | Parmenides: state updated to waiting left
+01:20:28 | Nietzsche: awaiting eating, 1 seconds left
+01:20:28 | Nietzsche: awaiting eating, 1 seconds left
+01:20:28 | Nietzsche: awaiting eating, 1 seconds left
+01:20:28 | Nietzsche: awaiting eating, 1 seconds left
+01:20:29 | Parmenides: state updated to eating
+01:20:29 | Parmenides: awaiting eating, 1 seconds left
+01:20:29 | Parmenides: awaiting eating, 1 seconds left
+01:20:29 | Parmenides: awaiting eating, 1 seconds left
+01:20:29 | Parmenides: awaiting eating, 1 seconds left
+01:20:29 | Parmenides: awaiting eating, 1 seconds left
+01:20:29 | Socrates: state updated to eating
+01:20:29 | Socrates: awaiting eating, 1 seconds left
+01:20:29 | Socrates: awaiting eating, 1 seconds left
+01:20:29 | Socrates: awaiting eating, 1 seconds left
+01:20:29 | Socrates: awaiting eating, 1 seconds left
+01:20:30 | Aristotle: state updated to waiting left
+01:20:30 | Spinoza: state updated to eating
+01:20:30 | Spinoza: awaiting eating, 1 seconds left
+01:20:30 | Spinoza: awaiting eating, 1 seconds left
+01:20:30 | Spinoza: awaiting eating, 1 seconds left
+01:20:30 | Spinoza: awaiting eating, 1 seconds left
+01:20:30 | Nietzsche: state updated to waiting right
+01:20:30 | Nietzsche: state updated to waiting left
+01:20:30 | Aristotle: awaiting eating, 1 seconds left
+01:20:30 | Aristotle: awaiting eating, 1 seconds left
+01:20:30 | Aristotle: awaiting eating, 1 seconds left
+01:20:30 | Aristotle: awaiting eating, 1 seconds left
+01:20:30 | Aristotle: awaiting eating, 1 seconds left
+01:20:31 | Parmenides: state updated to waiting right
+01:20:31 | Parmenides: state updated to waiting left
+01:20:31 | Parmenides: state updated to waiting left
+01:20:31 | Parmenides: state updated to waiting left
+01:20:31 | Parmenides: state updated to waiting left
+01:20:31 | Parmenides: state updated to waiting left
+01:20:31 | Parmenides: state updated to eating
+01:20:31 | Parmenides: awaiting eating, 1 seconds left
+01:20:31 | Parmenides: awaiting eating, 1 seconds left
+01:20:31 | Parmenides: awaiting eating, 1 seconds left
+01:20:31 | Parmenides: awaiting eating, 1 seconds left
+01:20:31 | Parmenides: awaiting eating, 1 seconds left
+01:20:32 | Socrates: state updated to eating
+01:20:32 | Socrates: awaiting eating, 1 seconds left
+01:20:32 | Socrates: awaiting eating, 1 seconds left
+01:20:32 | Socrates: awaiting eating, 1 seconds left
+01:20:32 | Socrates: awaiting eating, 1 seconds left
+01:20:32 | Spinoza: state updated to waiting right
+01:20:32 | Spinoza: state updated to eating
+01:20:32 | Spinoza: awaiting eating, 1 seconds left
+01:20:32 | Spinoza: awaiting eating, 1 seconds left
+01:20:32 | Spinoza: awaiting eating, 1 seconds left
+01:20:32 | Spinoza: awaiting eating, 1 seconds left
+01:20:33 | Nietzsche: state updated to waiting right
+01:20:33 | Nietzsche: state updated to waiting left
+01:20:33 | Aristotle: awaiting eating, 1 seconds left
+01:20:33 | Aristotle: awaiting eating, 1 seconds left
+01:20:33 | Aristotle: awaiting eating, 1 seconds left
+01:20:33 | Aristotle: awaiting eating, 1 seconds left
+01:20:33 | Aristotle: awaiting eating, 1 seconds left
+01:20:33 | Spinoza: state updated to thinking
+01:20:33 | Spinoza: awaiting thinking, 1 seconds left
+01:20:33 | Spinoza: awaiting thinking, 1 seconds left
+01:20:33 | Spinoza: awaiting thinking, 1 seconds left
+01:20:33 | Spinoza: awaiting thinking, 1 seconds left
+01:20:33 | Spinoza: awaiting thinking, 1 seconds left
+01:20:34 | Parmenides: state updated to eating
+01:20:34 | Parmenides: awaiting eating, 1 seconds left
+01:20:34 | Parmenides: awaiting eating, 1 seconds left
+01:20:34 | Parmenides: awaiting eating, 1 seconds left
+01:20:34 | Parmenides: awaiting eating, 1 seconds left
+01:20:34 | Parmenides: awaiting eating, 1 seconds left
+01:20:34 | Socrates: state updated to eating
+01:20:34 | Socrates: awaiting eating, 1 seconds left
+01:20:34 | Socrates: awaiting eating, 1 seconds left
+01:20:34 | Socrates: awaiting eating, 1 seconds left
+01:20:34 | Socrates: awaiting eating, 1 seconds left
+01:20:35 | Parmenides: state updated to thinking
+01:20:35 | Parmenides: awaiting thinking, 1 seconds left
+01:20:35 | Spinoza: state updated to eating
+01:20:35 | Spinoza: awaiting eating, 1 seconds left
+01:20:35 | Spinoza: awaiting eating, 1 seconds left
+01:20:35 | Spinoza: awaiting eating, 1 seconds left
+01:20:35 | Aristotle: state updated to waiting right
+01:20:35 | Aristotle: state updated to eating
+01:20:35 | Aristotle: awaiting eating, 1 seconds left
+01:20:35 | Aristotle: awaiting eating, 1 seconds left
+01:20:35 | Aristotle: awaiting eating, 1 seconds left
+01:20:35 | Aristotle: awaiting eating, 1 seconds left
+01:20:35 | Aristotle: awaiting eating, 1 seconds left
+01:20:36 | Nietzsche: state updated to eating
+01:20:36 | Nietzsche: awaiting eating, 1 seconds left
+01:20:36 | Nietzsche: awaiting eating, 1 seconds left
+01:20:36 | Nietzsche: awaiting eating, 1 seconds left
+01:20:36 | Nietzsche: awaiting eating, 1 seconds left
+01:20:36 | Nietzsche: awaiting eating, 1 seconds left
+01:20:36 | Socrates: state updated to waiting right
+01:20:36 | Socrates: state updated to waiting left
+01:20:36 | Parmenides: awaiting eating, 1 seconds left
+01:20:36 | Parmenides: awaiting eating, 1 seconds left
+01:20:36 | Parmenides: awaiting eating, 1 seconds left
+01:20:36 | Parmenides: awaiting eating, 1 seconds left
+01:20:37 | Socrates: state updated to eating
+01:20:37 | Socrates: awaiting eating, 1 seconds left
+01:20:37 | Socrates: awaiting eating, 1 seconds left
+01:20:37 | Socrates: awaiting eating, 1 seconds left
+01:20:37 | Socrates: awaiting eating, 1 seconds left
+01:20:37 | Spinoza: state updated to waiting right
+01:20:37 | Spinoza: state updated to eating
+01:20:37 | Spinoza: awaiting eating, 1 seconds left
+01:20:37 | Spinoza: awaiting eating, 1 seconds left
+01:20:37 | Spinoza: awaiting eating, 1 seconds left
+01:20:37 | Spinoza: awaiting eating, 1 seconds left
+01:20:38 | Aristotle: state updated to waiting right
+01:20:38 | Aristotle: state updated to eating
+01:20:38 | Aristotle: awaiting eating, 1 seconds left
+01:20:38 | Aristotle: awaiting eating, 1 seconds left
+01:20:38 | Aristotle: awaiting eating, 1 seconds left
+01:20:38 | Aristotle: awaiting eating, 1 seconds left
+01:20:38 | Aristotle: awaiting eating, 1 seconds left
+01:20:38 | Parmenides: state updated to waiting right
+01:20:38 | Parmenides: state updated to waiting left
+01:20:38 | Parmenides: state updated to waiting left
+01:20:38 | Parmenides: state updated to waiting left
+01:20:38 | Parmenides: state updated to waiting left
+01:20:38 | Parmenides: state updated to waiting left
+01:20:39 | Parmenides: state updated to eating
+01:20:39 | Parmenides: awaiting eating, 1 seconds left
+01:20:39 | Parmenides: awaiting eating, 1 seconds left
+01:20:39 | Parmenides: awaiting eating, 1 seconds left
+01:20:39 | Parmenides: awaiting eating, 1 seconds left
+01:20:39 | Parmenides: awaiting eating, 1 seconds left
+01:20:39 | Socrates: state updated to eating
+01:20:39 | Socrates: awaiting eating, 1 seconds left
+01:20:39 | Socrates: awaiting eating, 1 seconds left
+01:20:39 | Socrates: awaiting eating, 1 seconds left
+01:20:39 | Socrates: awaiting eating, 1 seconds left
+01:20:40 | Parmenides: state updated to thinking
+01:20:40 | Parmenides: awaiting thinking, 1 seconds left
+01:20:40 | Spinoza: state updated to eating
+01:20:40 | Spinoza: awaiting eating, 1 seconds left
+01:20:40 | Spinoza: awaiting eating, 1 seconds left
+01:20:40 | Spinoza: awaiting eating, 1 seconds left
+01:20:40 | Nietzsche: state updated to waiting right
+01:20:40 | Nietzsche: state updated to waiting left
+01:20:40 | Aristotle: awaiting eating, 1 seconds left
+01:20:40 | Aristotle: awaiting eating, 1 seconds left
+01:20:40 | Aristotle: awaiting eating, 1 seconds left
+01:20:40 | Aristotle: awaiting eating, 1 seconds left
+01:20:40 | Aristotle: awaiting eating, 1 seconds left
+01:20:41 | Nietzsche: state updated to eating
+01:20:41 | Nietzsche: awaiting eating, 1 seconds left
+01:20:41 | Nietzsche: awaiting eating, 1 seconds left
+01:20:41 | Nietzsche: awaiting eating, 1 seconds left
+01:20:41 | Nietzsche: awaiting eating, 1 seconds left
+01:20:41 | Nietzsche: awaiting eating, 1 seconds left
+01:20:41 | Parmenides: state updated to eating
+01:20:41 | Parmenides: awaiting eating, 1 seconds left
+01:20:41 | Parmenides: awaiting eating, 1 seconds left
+01:20:41 | Parmenides: awaiting eating, 1 seconds left
+01:20:41 | Parmenides: awaiting eating, 1 seconds left
+01:20:41 | Parmenides: awaiting eating, 1 seconds left
+01:20:42 | Socrates: state updated to eating
+01:20:42 | Socrates: awaiting eating, 1 seconds left
+01:20:42 | Socrates: awaiting eating, 1 seconds left
+01:20:42 | Socrates: awaiting eating, 1 seconds left
+01:20:42 | Socrates: awaiting eating, 1 seconds left
+01:20:42 | Parmenides: state updated to thinking
+01:20:42 | Parmenides: awaiting thinking, 1 seconds left
+01:20:42 | Spinoza: state updated to eating
+01:20:42 | Spinoza: awaiting eating, 1 seconds left
+01:20:42 | Spinoza: awaiting eating, 1 seconds left
+01:20:42 | Spinoza: awaiting eating, 1 seconds left
+01:20:43 | Aristotle: state updated to waiting right
+01:20:43 | Aristotle: state updated to eating
+01:20:43 | Aristotle: awaiting eating, 1 seconds left
+01:20:43 | Aristotle: awaiting eating, 1 seconds left
+01:20:43 | Aristotle: awaiting eating, 1 seconds left
+01:20:43 | Aristotle: awaiting eating, 1 seconds left
+01:20:43 | Aristotle: awaiting eating, 1 seconds left
+01:20:43 | Nietzsche: state updated to eating
+01:20:43 | Nietzsche: awaiting eating, 1 seconds left
+01:20:43 | Nietzsche: awaiting eating, 1 seconds left
+01:20:43 | Nietzsche: awaiting eating, 1 seconds left
+01:20:43 | Nietzsche: awaiting eating, 1 seconds left
+01:20:43 | Nietzsche: awaiting eating, 1 seconds left
+01:20:44 | Parmenides: state updated to eating
+01:20:44 | Parmenides: awaiting eating, 1 seconds left
+01:20:44 | Parmenides: awaiting eating, 1 seconds left
+01:20:44 | Parmenides: awaiting eating, 1 seconds left
+01:20:44 | Parmenides: awaiting eating, 1 seconds left
+01:20:44 | Parmenides: awaiting eating, 1 seconds left
+01:20:44 | Spinoza: state updated to waiting left
+01:20:44 | Socrates: awaiting eating, 1 seconds left
+01:20:44 | Socrates: awaiting eating, 1 seconds left
+01:20:44 | Socrates: awaiting eating, 1 seconds left
+01:20:44 | Socrates: awaiting eating, 1 seconds left
+01:20:45 | Spinoza: state updated to waiting right
+01:20:45 | Spinoza: state updated to eating
+01:20:45 | Spinoza: awaiting eating, 1 seconds left
+01:20:45 | Spinoza: awaiting eating, 1 seconds left
+01:20:45 | Spinoza: awaiting eating, 1 seconds left
+01:20:45 | Spinoza: awaiting eating, 1 seconds left
+01:20:45 | Nietzsche: state updated to waiting right
+01:20:45 | Nietzsche: state updated to waiting left
+01:20:45 | Aristotle: awaiting eating, 1 seconds left
+01:20:45 | Aristotle: awaiting eating, 1 seconds left
+01:20:45 | Aristotle: awaiting eating, 1 seconds left
+01:20:45 | Aristotle: awaiting eating, 1 seconds left
+01:20:45 | Aristotle: awaiting eating, 1 seconds left
+01:20:46 | Nietzsche: state updated to eating
+01:20:46 | Nietzsche: awaiting eating, 1 seconds left
+01:20:46 | Nietzsche: awaiting eating, 1 seconds left
+01:20:46 | Nietzsche: awaiting eating, 1 seconds left
+01:20:46 | Nietzsche: awaiting eating, 1 seconds left
+01:20:46 | Nietzsche: awaiting eating, 1 seconds left
+01:20:46 | Socrates: state updated to waiting right
+01:20:46 | Socrates: state updated to waiting left
+01:20:46 | Parmenides: awaiting eating, 1 seconds left
+01:20:46 | Parmenides: awaiting eating, 1 seconds left
+01:20:46 | Parmenides: awaiting eating, 1 seconds left
+01:20:46 | Parmenides: awaiting eating, 1 seconds left
+01:20:47 | Socrates: state updated to eating
+01:20:47 | Socrates: awaiting eating, 1 seconds left
+01:20:47 | Socrates: awaiting eating, 1 seconds left
+01:20:47 | Socrates: awaiting eating, 1 seconds left
+01:20:47 | Socrates: awaiting eating, 1 seconds left
+01:20:47 | Parmenides: state updated to thinking
+01:20:47 | Parmenides: awaiting thinking, 1 seconds left
+01:20:47 | Spinoza: state updated to eating
+01:20:47 | Spinoza: awaiting eating, 1 seconds left
+01:20:47 | Spinoza: awaiting eating, 1 seconds left
+01:20:47 | Spinoza: awaiting eating, 1 seconds left
+01:20:48 | Aristotle: state updated to waiting right
+01:20:48 | Aristotle: state updated to eating
+01:20:48 | Aristotle: awaiting eating, 1 seconds left
+01:20:48 | Aristotle: awaiting eating, 1 seconds left
+01:20:48 | Aristotle: awaiting eating, 1 seconds left
+01:20:48 | Aristotle: awaiting eating, 1 seconds left
+01:20:48 | Aristotle: awaiting eating, 1 seconds left
+01:20:48 | Spinoza: state updated to thinking
+01:20:48 | Spinoza: awaiting thinking, 1 seconds left
+01:20:48 | Nietzsche: awaiting eating, 1 seconds left
+01:20:48 | Nietzsche: awaiting eating, 1 seconds left
+01:20:48 | Nietzsche: awaiting eating, 1 seconds left
+01:20:48 | Nietzsche: awaiting eating, 1 seconds left
+01:20:49 | Parmenides: state updated to eating
+01:20:49 | Parmenides: awaiting eating, 1 seconds left
+01:20:49 | Parmenides: awaiting eating, 1 seconds left
+01:20:49 | Parmenides: awaiting eating, 1 seconds left
+01:20:49 | Parmenides: awaiting eating, 1 seconds left
+01:20:49 | Parmenides: awaiting eating, 1 seconds left
+01:20:49 | Nietzsche: state updated to thinking
+01:20:49 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:49 | Socrates: awaiting eating, 1 seconds left
+01:20:49 | Socrates: awaiting eating, 1 seconds left
+01:20:49 | Socrates: awaiting eating, 1 seconds left
+01:20:50 | Parmenides: state updated to thinking
+01:20:50 | Parmenides: awaiting thinking, 1 seconds left
+01:20:50 | Spinoza: state updated to eating
+01:20:50 | Spinoza: awaiting eating, 1 seconds left
+01:20:50 | Spinoza: awaiting eating, 1 seconds left
+01:20:50 | Spinoza: awaiting eating, 1 seconds left
+01:20:50 | Socrates: state updated to thinking
+01:20:50 | Socrates: awaiting thinking, 1 seconds left
+01:20:50 | Aristotle: state updated to eating
+01:20:50 | Aristotle: awaiting eating, 1 seconds left
+01:20:50 | Aristotle: awaiting eating, 1 seconds left
+01:20:50 | Aristotle: awaiting eating, 1 seconds left
+01:20:50 | Aristotle: awaiting eating, 1 seconds left
+01:20:51 | Nietzsche: state updated to eating
+01:20:51 | Nietzsche: awaiting eating, 1 seconds left
+01:20:51 | Nietzsche: awaiting eating, 1 seconds left
+01:20:51 | Nietzsche: awaiting eating, 1 seconds left
+01:20:51 | Nietzsche: awaiting eating, 1 seconds left
+01:20:51 | Nietzsche: awaiting eating, 1 seconds left
+01:20:51 | Parmenides: state updated to eating
+01:20:51 | Parmenides: awaiting eating, 1 seconds left
+01:20:51 | Parmenides: awaiting eating, 1 seconds left
+01:20:51 | Parmenides: awaiting eating, 1 seconds left
+01:20:51 | Parmenides: awaiting eating, 1 seconds left
+01:20:51 | Parmenides: awaiting eating, 1 seconds left
+01:20:52 | Socrates: state updated to eating
+01:20:52 | Socrates: awaiting eating, 1 seconds left
+01:20:52 | Socrates: awaiting eating, 1 seconds left
+01:20:52 | Socrates: awaiting eating, 1 seconds left
+01:20:52 | Socrates: awaiting eating, 1 seconds left
+01:20:52 | Aristotle: state updated to waiting left
+01:20:52 | Spinoza: state updated to waiting right
+01:20:52 | Spinoza: state updated to eating
+01:20:52 | Spinoza: awaiting eating, 1 seconds left
+01:20:52 | Spinoza: awaiting eating, 1 seconds left
+01:20:52 | Spinoza: awaiting eating, 1 seconds left
+01:20:53 | Nietzsche: state updated to waiting right
+01:20:53 | Nietzsche: state updated to waiting left
+01:20:53 | Aristotle: awaiting eating, 1 seconds left
+01:20:53 | Aristotle: awaiting eating, 1 seconds left
+01:20:53 | Aristotle: awaiting eating, 1 seconds left
+01:20:53 | Aristotle: awaiting eating, 1 seconds left
+01:20:53 | Aristotle: awaiting eating, 1 seconds left
+01:20:53 | Nietzsche: state updated to eating
+01:20:53 | Nietzsche: awaiting eating, 1 seconds left
+01:20:53 | Nietzsche: awaiting eating, 1 seconds left
+01:20:53 | Nietzsche: awaiting eating, 1 seconds left
+01:20:53 | Nietzsche: awaiting eating, 1 seconds left
+01:20:53 | Nietzsche: awaiting eating, 1 seconds left
+01:20:54 | Socrates: state updated to waiting right
+01:20:54 | Socrates: state updated to waiting left
+01:20:54 | Socrates: state updated to waiting left
+01:20:54 | Socrates: state updated to waiting left
+01:20:54 | Socrates: state updated to waiting left
+01:20:54 | Socrates: state updated to waiting left
+01:20:54 | Nietzsche: state updated to thinking
+01:20:54 | Nietzsche: awaiting thinking, 1 seconds left
+01:20:54 | Socrates: awaiting eating, 1 seconds left
+01:20:54 | Socrates: awaiting eating, 1 seconds left
+01:20:54 | Socrates: awaiting eating, 1 seconds left
+01:20:55 | Spinoza: state updated to waiting right
+01:20:55 | Spinoza: state updated to eating
+01:20:55 | Spinoza: awaiting eating, 1 seconds left
+01:20:55 | Spinoza: awaiting eating, 1 seconds left
+01:20:55 | Spinoza: awaiting eating, 1 seconds left
+01:20:55 | Spinoza: awaiting eating, 1 seconds left
+01:20:55 | Aristotle: state updated to waiting right
+01:20:55 | Aristotle: state updated to eating
+01:20:55 | Aristotle: awaiting eating, 1 seconds left
+01:20:55 | Aristotle: awaiting eating, 1 seconds left
+01:20:55 | Aristotle: awaiting eating, 1 seconds left
+01:20:55 | Aristotle: awaiting eating, 1 seconds left
+01:20:55 | Aristotle: awaiting eating, 1 seconds left
+01:20:56 | Parmenides: state updated to waiting right
+01:20:56 | Parmenides: state updated to waiting left
+01:20:56 | Parmenides: state updated to waiting left
+01:20:56 | Parmenides: state updated to waiting left
+01:20:56 | Parmenides: state updated to waiting left
+01:20:56 | Parmenides: state updated to waiting left
+01:20:56 | Parmenides: state updated to eating
+01:20:56 | Parmenides: awaiting eating, 1 seconds left
+01:20:56 | Parmenides: awaiting eating, 1 seconds left
+01:20:56 | Parmenides: awaiting eating, 1 seconds left
+01:20:56 | Parmenides: awaiting eating, 1 seconds left
+01:20:56 | Parmenides: awaiting eating, 1 seconds left
+01:20:57 | Socrates: state updated to eating
+01:20:57 | Socrates: awaiting eating, 1 seconds left
+01:20:57 | Socrates: awaiting eating, 1 seconds left
+01:20:57 | Socrates: awaiting eating, 1 seconds left
+01:20:57 | Socrates: awaiting eating, 1 seconds left
+01:20:57 | Aristotle: state updated to waiting left
+01:20:57 | Spinoza: state updated to waiting right
+01:20:57 | Spinoza: state updated to eating
+01:20:57 | Spinoza: awaiting eating, 1 seconds left
+01:20:57 | Spinoza: awaiting eating, 1 seconds left
+01:20:57 | Spinoza: awaiting eating, 1 seconds left
+01:20:58 | Aristotle: state updated to waiting right
+01:20:58 | Aristotle: state updated to eating
+01:20:58 | Aristotle: awaiting eating, 1 seconds left
+01:20:58 | Aristotle: awaiting eating, 1 seconds left
+01:20:58 | Aristotle: awaiting eating, 1 seconds left
+01:20:58 | Aristotle: awaiting eating, 1 seconds left
+01:20:58 | Aristotle: awaiting eating, 1 seconds left
+01:20:58 | Nietzsche: state updated to eating
+01:20:58 | Nietzsche: awaiting eating, 1 seconds left
+01:20:58 | Nietzsche: awaiting eating, 1 seconds left
+01:20:58 | Nietzsche: awaiting eating, 1 seconds left
+01:20:58 | Nietzsche: awaiting eating, 1 seconds left
+01:20:58 | Nietzsche: awaiting eating, 1 seconds left
+01:20:59 | Parmenides: state updated to eating
+01:20:59 | Parmenides: awaiting eating, 1 seconds left
+01:20:59 | Parmenides: awaiting eating, 1 seconds left
+01:20:59 | Parmenides: awaiting eating, 1 seconds left
+01:20:59 | Parmenides: awaiting eating, 1 seconds left
+01:20:59 | Parmenides: awaiting eating, 1 seconds left
+01:20:59 | Socrates: state updated to eating
+01:20:59 | Socrates: awaiting eating, 1 seconds left
+01:20:59 | Socrates: awaiting eating, 1 seconds left
+01:20:59 | Socrates: awaiting eating, 1 seconds left
+01:20:59 | Socrates: awaiting eating, 1 seconds left
+01:21:00 | Spinoza: state updated to waiting right
+01:21:00 | Spinoza: state updated to eating
+01:21:00 | Spinoza: awaiting eating, 1 seconds left
+01:21:00 | Spinoza: awaiting eating, 1 seconds left
+01:21:00 | Spinoza: awaiting eating, 1 seconds left
+01:21:00 | Spinoza: awaiting eating, 1 seconds left
+01:21:00 | Aristotle: state updated to waiting right
+01:21:00 | Aristotle: state updated to eating
+01:21:00 | Aristotle: awaiting eating, 1 seconds left
+01:21:00 | Aristotle: awaiting eating, 1 seconds left
+01:21:00 | Aristotle: awaiting eating, 1 seconds left
+01:21:00 | Aristotle: awaiting eating, 1 seconds left
+01:21:00 | Aristotle: awaiting eating, 1 seconds left
+01:21:01 | Nietzsche: state updated to eating
+01:21:01 | Nietzsche: awaiting eating, 1 seconds left
+01:21:01 | Nietzsche: awaiting eating, 1 seconds left
+01:21:01 | Nietzsche: awaiting eating, 1 seconds left
+01:21:01 | Nietzsche: awaiting eating, 1 seconds left
+01:21:01 | Nietzsche: awaiting eating, 1 seconds left
+01:21:01 | Aristotle: state updated to thinking
+01:21:01 | Aristotle: awaiting thinking, 1 seconds left
+01:21:01 | Parmenides: awaiting eating, 1 seconds left
+01:21:01 | Parmenides: awaiting eating, 1 seconds left
+01:21:01 | Parmenides: awaiting eating, 1 seconds left
+01:21:01 | Parmenides: awaiting eating, 1 seconds left
+01:21:02 | Socrates: state updated to eating
+01:21:02 | Socrates: awaiting eating, 1 seconds left
+01:21:02 | Socrates: awaiting eating, 1 seconds left
+01:21:02 | Socrates: awaiting eating, 1 seconds left
+01:21:02 | Socrates: awaiting eating, 1 seconds left
+01:21:02 | Aristotle: state updated to waiting left
+01:21:02 | Spinoza: state updated to waiting right
+01:21:02 | Spinoza: state updated to eating
+01:21:02 | Spinoza: awaiting eating, 1 seconds left
+01:21:02 | Spinoza: awaiting eating, 1 seconds left
+01:21:02 | Spinoza: awaiting eating, 1 seconds left
+01:21:03 | Aristotle: state updated to waiting right
+01:21:03 | Aristotle: state updated to eating
+01:21:03 | Aristotle: awaiting eating, 1 seconds left
+01:21:03 | Aristotle: awaiting eating, 1 seconds left
+01:21:03 | Aristotle: awaiting eating, 1 seconds left
+01:21:03 | Aristotle: awaiting eating, 1 seconds left
+01:21:03 | Aristotle: awaiting eating, 1 seconds left
+01:21:03 | Nietzsche: state updated to eating
+01:21:03 | Nietzsche: awaiting eating, 1 seconds left
+01:21:03 | Nietzsche: awaiting eating, 1 seconds left
+01:21:03 | Nietzsche: awaiting eating, 1 seconds left
+01:21:03 | Nietzsche: awaiting eating, 1 seconds left
+01:21:03 | Nietzsche: awaiting eating, 1 seconds left
+01:21:04 | Socrates: state updated to waiting right
+01:21:04 | Socrates: state updated to waiting left
+01:21:04 | Socrates: state updated to waiting left
+01:21:04 | Socrates: state updated to waiting left
+01:21:04 | Socrates: state updated to waiting left
+01:21:04 | Socrates: state updated to waiting left
+01:21:04 | Socrates: state updated to eating
+01:21:04 | Socrates: awaiting eating, 1 seconds left
+01:21:04 | Socrates: awaiting eating, 1 seconds left
+01:21:04 | Socrates: awaiting eating, 1 seconds left
+01:21:04 | Socrates: awaiting eating, 1 seconds left
+01:21:05 | Parmenides: state updated to thinking
+01:21:05 | Parmenides: awaiting thinking, 1 seconds left
+01:21:05 | Spinoza: awaiting eating, 1 seconds left
+01:21:05 | Spinoza: awaiting eating, 1 seconds left
+01:21:05 | Spinoza: awaiting eating, 1 seconds left
+01:21:05 | Spinoza: awaiting eating, 1 seconds left
+01:21:05 | Socrates: state updated to thinking
+01:21:05 | Socrates: awaiting thinking, 1 seconds left
+01:21:05 | Aristotle: state updated to eating
+01:21:05 | Aristotle: awaiting eating, 1 seconds left
+01:21:05 | Aristotle: awaiting eating, 1 seconds left
+01:21:05 | Aristotle: awaiting eating, 1 seconds left
+01:21:05 | Aristotle: awaiting eating, 1 seconds left
+01:21:06 | Nietzsche: state updated to eating
+01:21:06 | Nietzsche: awaiting eating, 1 seconds left
+01:21:06 | Nietzsche: awaiting eating, 1 seconds left
+01:21:06 | Nietzsche: awaiting eating, 1 seconds left
+01:21:06 | Nietzsche: awaiting eating, 1 seconds left
+01:21:06 | Nietzsche: awaiting eating, 1 seconds left
+01:21:06 | Parmenides: state updated to eating
+01:21:06 | Parmenides: awaiting eating, 1 seconds left
+01:21:06 | Parmenides: awaiting eating, 1 seconds left
+01:21:06 | Parmenides: awaiting eating, 1 seconds left
+01:21:06 | Parmenides: awaiting eating, 1 seconds left
+01:21:06 | Parmenides: awaiting eating, 1 seconds left
+01:21:07 | Socrates: state updated to eating
+01:21:07 | Socrates: awaiting eating, 1 seconds left
+01:21:07 | Socrates: awaiting eating, 1 seconds left
+01:21:07 | Socrates: awaiting eating, 1 seconds left
+01:21:07 | Socrates: awaiting eating, 1 seconds left
+01:21:07 | Aristotle: state updated to waiting left
+01:21:07 | Spinoza: state updated to waiting right
+01:21:07 | Spinoza: state updated to eating
+01:21:07 | Spinoza: awaiting eating, 1 seconds left
+01:21:07 | Spinoza: awaiting eating, 1 seconds left
+01:21:07 | Spinoza: awaiting eating, 1 seconds left
+01:21:08 | Aristotle: state updated to waiting right
+01:21:08 | Aristotle: state updated to eating
+01:21:08 | Aristotle: awaiting eating, 1 seconds left
+01:21:08 | Aristotle: awaiting eating, 1 seconds left
+01:21:08 | Aristotle: awaiting eating, 1 seconds left
+01:21:08 | Aristotle: awaiting eating, 1 seconds left
+01:21:08 | Aristotle: awaiting eating, 1 seconds left
+01:21:08 | Nietzsche: state updated to eating
+01:21:08 | Nietzsche: awaiting eating, 1 seconds left
+01:21:08 | Nietzsche: awaiting eating, 1 seconds left
+01:21:08 | Nietzsche: awaiting eating, 1 seconds left
+01:21:08 | Nietzsche: awaiting eating, 1 seconds left
+01:21:08 | Nietzsche: awaiting eating, 1 seconds left
+01:21:09 | Socrates: state updated to waiting right
+01:21:09 | Socrates: state updated to waiting left
+01:21:09 | Socrates: state updated to waiting left
+01:21:09 | Socrates: state updated to waiting left
+01:21:09 | Socrates: state updated to waiting left
+01:21:09 | Socrates: state updated to waiting left
+01:21:09 | Spinoza: state updated to waiting left
+01:21:09 | Socrates: awaiting eating, 1 seconds left
+01:21:09 | Socrates: awaiting eating, 1 seconds left
+01:21:09 | Socrates: awaiting eating, 1 seconds left
+01:21:09 | Socrates: awaiting eating, 1 seconds left
+01:21:10 | Table: timeout reached, exiting...
+01:21:10 | Socrates: setting stop event
+01:21:10 | Parmenides: state updated to thinking
+01:21:10 | Parmenides: awaiting thinking, 1 seconds left
+01:21:10 | Spinoza: state updated to eating
+01:21:10 | Spinoza: awaiting eating, 1 seconds left
+01:21:10 | Spinoza: awaiting eating, 1 seconds left
+01:21:10 | Spinoza: awaiting eating, 1 seconds left
+01:21:10 | Socrates: process exited correctly
+01:21:10 | Nietzsche: state updated to waiting left
+01:21:10 | Aristotle: state updated to eating
+01:21:10 | Aristotle: awaiting eating, 1 seconds left
+01:21:10 | Aristotle: awaiting eating, 1 seconds left
+01:21:10 | Aristotle: awaiting eating, 1 seconds left
+01:21:10 | Aristotle: awaiting eating, 1 seconds left
+01:21:11 | Spinoza: state updated to thinking
+01:21:11 | Spinoza: awaiting thinking, 1 seconds left
+01:21:11 | Nietzsche: awaiting eating, 1 seconds left
+01:21:11 | Nietzsche: awaiting eating, 1 seconds left
+01:21:11 | Nietzsche: awaiting eating, 1 seconds left
+01:21:11 | Nietzsche: awaiting eating, 1 seconds left
+01:21:11 | Parmenides: state updated to eating
+01:21:11 | Parmenides: awaiting eating, 1 seconds left
+01:21:11 | Parmenides: awaiting eating, 1 seconds left
+01:21:11 | Parmenides: awaiting eating, 1 seconds left
+01:21:12 | Nietzsche: state updated to thinking
+01:21:12 | Nietzsche: awaiting thinking, 1 seconds left
+01:21:12 | Nietzsche: awaiting thinking, 1 seconds left
+01:21:12 | Spinoza: state updated to waiting right
+01:21:12 | Spinoza: setting stop event
+01:21:12 | Spinoza: awaiting eating, 1 seconds left
+01:21:12 | Spinoza: awaiting eating, 1 seconds left
+01:21:12 | Spinoza: awaiting eating, 1 seconds left
+01:21:13 | Nietzsche: state updated to waiting right
+01:21:13 | Nietzsche: state updated to waiting left
+01:21:13 | Nietzsche: state updated to eating
+01:21:13 | Nietzsche: awaiting eating, 1 seconds left
+01:21:13 | Nietzsche: setting stop event
+01:21:13 | Nietzsche: setting stop event
+01:21:14 | Nietzsche: process exited correctly
+01:21:14 | Table: all processes exited

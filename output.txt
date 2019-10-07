@@ -118,3 +118,337 @@
 | eating          | thinking        | eating          | thinking        | waiting right   |
 | thinking        | eating          | thinking        | waiting right   | eating          |
 #-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| eating          | waiting left    | eating          | waiting left    | waiting right   |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| thinking        | waiting right   | eating          | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting right   | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | waiting right   | eating          | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting left    | waiting left    | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | waiting right   | eating          | waiting left    | eating          |
+| waiting right   | eating          | thinking        | eating          | thinking        |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| eating          | waiting left    | eating          | waiting left    | waiting right   |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| thinking        | waiting right   | eating          | thinking        | eating          |
+| waiting right   | eating          | thinking        | eating          | thinking        |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting right   | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| eating          | waiting left    | eating          | waiting left    | waiting right   |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| thinking        | waiting right   | eating          | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting left    | waiting left    | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting left    | waiting left    | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting left    | waiting left    | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting left    | waiting left    | eating          | waiting left    | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting right   | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| eating          | waiting left    | waiting right   | eating          | waiting right   |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| thinking        | waiting right   | eating          | thinking        | eating          |
+| waiting right   | eating          | thinking        | eating          | thinking        |
+| eating          | thinking        | eating          | thinking        | waiting right   |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| thinking        | waiting right   | eating          | thinking        | eating          |
+| waiting right   | eating          | thinking        | eating          | thinking        |
+| eating          | thinking        | eating          | thinking        | waiting right   |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| thinking        | waiting right   | eating          | thinking        | eating          |
+| waiting right   | eating          | thinking        | eating          | thinking        |
+| eating          | thinking        | eating          | thinking        | waiting right   |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+| eating          | thinking        | waiting right   | eating          | thinking        |
+| thinking        | waiting right   | eating          | thinking        | eating          |
+| waiting right   | eating          | thinking        | eating          | thinking        |
+| eating          | thinking        | eating          | thinking        | waiting right   |
+| thinking        | eating          | thinking        | waiting right   | eating          |
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting left    | waiting left    | eating          | waiting left    | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting left    | waiting left    | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------------#
+| Socrates        | Aristotle       | Parmenides      | Spinoza         | Nietzsche       |
+#-----------------------------------------------------------------------------------------#
+| thinking        | thinking        | thinking        | thinking        | thinking        |
+| waiting right   | eating          | waiting right   | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+| eating          | thinking        | eating          | waiting left    | thinking        |
+| thinking        | eating          | thinking        | eating          | waiting left    |
+| waiting left    | thinking        | eating          | thinking        | eating          |
+| eating          | waiting left    | thinking        | eating          | thinking        |
+| thinking        | eating          | waiting left    | thinking        | eating          |
+#-----------------------------------------------------------------------------------------#
