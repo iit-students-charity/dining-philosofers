@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
   <timeOut>5</timeOut>
-  
+
   <outputFile>output.txt</outputFile>
   <outputPeriod>1</outputPeriod>
-  
+
   <philosofers>
     <philosofer>Socrates</philosofer>
     <philosofer>Aristotle</philosofer>

@@ -24,4 +24,6 @@ private:
 	std::string outputFilePath;
 	std::vector<std::string> philosoferNames;
 	Log* log;
+
+	void validate();
 };

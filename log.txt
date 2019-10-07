@@ -107,3 +107,11 @@
 02:12:08 | Nietzsche: setting stop event
 02:12:09 | Nietzsche: process exited correctly
 02:12:09 | Table: all processes exited
+21:10:50 | Config error. SecondsToEat tag should present and be 1 or more
+21:10:50 | Config error. SecondsToThink tag should present and be 1 or more
+21:10:50 | Config error. OutputPeriod tag should present and be 1 or more
+21:10:50 | Config error. Timeout tag should present and be 1 or more
+21:10:50 | Config error. outputFilePath tag should present
+21:10:50 | Config error. Philosofers tag should contain at least 1 philosofer tag
+21:15:44 | Config error. Cannot open config.xml
+21:16:34 | Config error. Cannot open config.xml
