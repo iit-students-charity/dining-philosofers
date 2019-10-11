@@ -35,10 +35,8 @@ void Log::listen()
 	{
 		if (messages.size())
 		{
-			WaitForSingleObject(queueAccessMutex, INFINITE);
 			logFile << messages.back();
 			messages.pop();
-			ReleaseMutex(queueAccessMutex);
 		}
 	}
 }
