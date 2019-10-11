@@ -16,6 +16,8 @@ Config::Config(const char* source, Log* log)
 		std::string sourceString = std::string(source);
 		log->log("Config error. Cannot open " + sourceString);
 		log->log("Program exited due to config error");
+		delete log;
+		delete this;
 		exit(1);
 	}
 

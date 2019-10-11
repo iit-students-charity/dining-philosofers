@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-  <timeOut>50</timeOut>
+  <timeOut>5</timeOut>
 
   <outputFile>output.txt</outputFile>
   <outputPeriod>1</outputPeriod>
