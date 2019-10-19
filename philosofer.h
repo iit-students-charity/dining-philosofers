@@ -6,6 +6,8 @@
 #include <process.h>
 #include <string>
 
+#define MILLISECONDS_IN_SECOND 1000
+
 class Philosofer
 {
 public:

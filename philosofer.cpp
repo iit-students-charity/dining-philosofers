@@ -106,13 +106,13 @@ void Philosofer::reflectionLoop()
 void Philosofer::waitForThinking()
 {
 	log->log(name + ": awaiting thinking, " + std::to_string(secondsToThink) + " seconds left");
-	Sleep(secondsToThink * 1000);
+	Sleep(secondsToThink * MILLISECONDS_IN_SECOND);
 }
 
 void Philosofer::waitForEating()
 {
 	log->log(name + ": awaiting eating, " + std::to_string(secondsToEat) + " seconds left");
-	Sleep(secondsToEat * 1000);
+	Sleep(secondsToEat * MILLISECONDS_IN_SECOND);
 }
 
 void Philosofer::setState(State state)

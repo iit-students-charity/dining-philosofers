@@ -98,7 +98,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -149,8 +149,8 @@
   <ItemGroup>
     <ClInclude Include="config.h" />
     <ClInclude Include="fork.h" />
-    <ClInclude Include="Header.h" />
-    <ClInclude Include="Header1.h" />
+    <ClInclude Include="libs\pugixml\src\pugiconfig.hpp" />
+    <ClInclude Include="libs\pugixml\src\pugixml.hpp" />
     <ClInclude Include="log.h" />
     <ClInclude Include="philosofer.h" />
     <ClInclude Include="stdafx.h" />
@@ -160,6 +160,7 @@
   <ItemGroup>
     <ClCompile Include="config.cpp" />
     <ClCompile Include="fork.cpp" />
+    <ClCompile Include="libs\pugixml\src\pugixml.cpp" />
     <ClCompile Include="log.cpp" />
     <ClCompile Include="OS2.cpp" />
     <ClCompile Include="philosofer.cpp" />

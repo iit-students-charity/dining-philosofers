@@ -9,6 +9,9 @@
 #include <fstream>
 #include <iomanip>
 
+#define MILLISECONDS_IN_SECOND 1000
+#define DIVIDER_LENGTH 17
+
 class Table
 {
 public:

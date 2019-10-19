@@ -2,7 +2,6 @@
 #include "config.h"
 
 #include "libs/pugixml/src/pugixml.hpp"
-#include "libs/pugixml/src/pugixml.cpp"
 
 Config::Config(const char* source, Log* log)
 {

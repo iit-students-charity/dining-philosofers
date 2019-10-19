@@ -90,10 +90,10 @@ void Table::outputHeading(std::ostream& stream)
 
 void Table::outputLine(std::ostream& stream)
 {
-	stream << "#" << std::string((count * 17 + count - 1), '-') << "#" << std::endl;
+	stream << "#" << std::string((count * DIVIDER_LENGTH + count - 1), '-') << "#" << std::endl;
 }
 
 void Table::waitForOutputPeriod()
 {
-	Sleep(outputPeriod * 1000);
+	Sleep(outputPeriod * MILLISECONDS_IN_SECOND);
 }
